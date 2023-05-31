@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/transit-flow/static/css/main.073c9b0a.css",
+    "main.js": "/transit-flow/static/js/main.a7dd5056.js",
+    "index.html": "/transit-flow/index.html",
+    "main.073c9b0a.css.map": "/transit-flow/static/css/main.073c9b0a.css.map",
+    "main.a7dd5056.js.map": "/transit-flow/static/js/main.a7dd5056.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a7dd5056.js"
+  ]
+}
