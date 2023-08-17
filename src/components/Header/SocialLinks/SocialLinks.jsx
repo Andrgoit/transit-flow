@@ -1,14 +1,13 @@
-import inst from "../../../img/icons/header/instagram.svg";
-import facebook from "../../../img/icons/header/facebook.svg";
-import twitter from "../../../img/icons/header/twitter.svg";
-import linkedin from "../../../img/icons/header/linkdin.svg";
+import { ReactComponent as Inst } from "../../../img/icons/header/instagram.svg";
+import { ReactComponent as Facebook } from "../../../img/icons/header/facebook.svg";
+import { ReactComponent as Twitter } from "../../../img/icons/header/twitter.svg";
+import { ReactComponent as Linkedin } from "../../../img/icons/header/linkdin.svg";
 
 import {
   StyledSocialList,
   StyledSocialItem,
   StyledLink,
   StyledIcon,
-  StyledImg,
 } from "./SocialLinks.styled";
 
 export default function SocialLinks() {
@@ -17,7 +16,7 @@ export default function SocialLinks() {
       <StyledSocialItem>
         <StyledLink to="#">
           <StyledIcon>
-            <StyledImg src={inst} alt="Instagramm" width="19px" />
+            <Inst width="19px" />
           </StyledIcon>
         </StyledLink>
       </StyledSocialItem>
@@ -25,7 +24,7 @@ export default function SocialLinks() {
       <StyledSocialItem>
         <StyledLink to="#">
           <StyledIcon>
-            <StyledImg src={facebook} alt="facebook" width="19px" />
+            <Facebook width="19px" />
           </StyledIcon>
         </StyledLink>
       </StyledSocialItem>
@@ -33,7 +32,7 @@ export default function SocialLinks() {
       <StyledSocialItem>
         <StyledLink to="#">
           <StyledIcon>
-            <StyledImg src={twitter} alt="twitter" width="19px" />
+            <Twitter width="19px" />
           </StyledIcon>
         </StyledLink>
       </StyledSocialItem>
@@ -41,7 +40,7 @@ export default function SocialLinks() {
       <StyledSocialItem>
         <StyledLink to="#">
           <StyledIcon>
-            <StyledImg src={linkedin} alt="linkedin" width="19px" />
+            <Linkedin width="19px" />
           </StyledIcon>
         </StyledLink>
       </StyledSocialItem>

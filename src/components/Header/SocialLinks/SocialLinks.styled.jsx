@@ -15,11 +15,11 @@ export const StyledLink = styled(Link)``;
 export const StyledIcon = styled.span`
   width: 19px;
   display: block;
-  color: white;
+  fill: white;
 
-  /* &:hover {
-    color: #f5841b;
-  } */
+  &:hover {
+    fill: #f5841b;
+  }
 `;
 export const StyledImg = styled.img`
   display: block;
