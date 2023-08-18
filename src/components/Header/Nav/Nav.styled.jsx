@@ -12,6 +12,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const SyledLink = styled(NavLink)`
+  text-decoration: none;
   color: white;
   font-size: 16px;
   font-style: normal;
