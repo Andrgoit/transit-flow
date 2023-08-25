@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledWrapper = styled.footer`
   position: relative;
-  top: -78px;
+  /* top: -78px; */
   display: flex;
   flex-direction: column;
   align-items: center;

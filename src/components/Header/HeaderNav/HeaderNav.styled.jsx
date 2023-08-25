@@ -4,6 +4,8 @@ export const StyledHeaderNavContainer = styled.div`
   background-color: rgba(9, 18, 66, 0.25);
   display: flex;
   justify-content: center;
+  /* position: absolute; */
+  /* bottom: 0; */
 `;
 
 export const StyledContainer = styled.div`

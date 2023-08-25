@@ -1,18 +1,18 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import banner from '../../img/banners/HomePageBanner.jpg';
 
-export const StyledHomePageBanner = styled.section`
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 1035px;
-  position: relative;
-  top: -78px;
-  z-index: 1;
-
-  /* background-image: url("../../img/banners/HomePageBanner.jpg");
+export const StyledHomePageBanner = styled.div`
+  background-image: url(${banner});
   background-repeat: no-repeat;
   background-position: center 0;
-  background-size: cover; */
+  background-size: cover;
+  margin-top: -78px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 1035px;
+  padding-top: 251px;
+  padding-bottom: 218px;
 `;
 
 export const StyledImage = styled.img`
@@ -22,23 +22,19 @@ export const StyledImage = styled.img`
 `;
 
 export const StyledContainer = styled.div`
-  position: absolute;
-  bottom: 50px;
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 218px;
   color: black;
   display: flex;
   flex-direction: column;
-  align-items: self-start;
+  justify-content: flex-end;
 `;
 
 export const StyledContentContainer = styled.div`
   display: flex;
   width: 571px;
   flex-direction: column;
-  align-items: flex-start;
 `;
 
 export const StyledTitle = styled.h2`
@@ -60,6 +56,7 @@ export const StyledText = styled.p`
 `;
 
 export const StyledButton = styled.button`
+  width: 194px;
   color: #23212a;
   font-size: 16px;
   font-style: normal;
@@ -79,7 +76,7 @@ export const StyledButton = styled.button`
   );
 
   &::after {
-    content: "";
+    content: '';
     background-color: white;
     width: 50px;
     height: 50px;

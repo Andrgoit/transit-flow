@@ -2,7 +2,9 @@ import {
   StyledContainer,
   StyledIndicator,
   StyledTextArea,
-} from "./Label.styled";
+} from './Label.styled';
+
+/* bg - "dark" or "light" */
 
 export default function Label({ text, bg }) {
   return (
