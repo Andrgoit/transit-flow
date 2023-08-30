@@ -2,6 +2,7 @@ import Header from 'components/Header/Header';
 import HomePageBanner from 'components/HomePageBanner/HomePageBanner';
 import Footer from 'components/Footer/Footer';
 import HomePageServices from 'components/HomePageServices/HomePageServices';
+import HomePageAbout from 'components/HomePageAbout/HomePageAbout';
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Header />
       <HomePageBanner />
       <HomePageServices />
+      <HomePageAbout />
       <Footer />
     </div>
   );
