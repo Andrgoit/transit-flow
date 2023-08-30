@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/transit-flow/static/css/main.56352454.css",
-    "main.js": "/transit-flow/static/js/main.665aa679.js",
+    "main.js": "/transit-flow/static/js/main.5aa86be3.js",
+    "static/media/HomePage_AboutBanner.jpg": "/transit-flow/static/media/HomePage_AboutBanner.753bf81e351b44c2bfe5.jpg",
     "static/media/HomePageBanner.jpg": "/transit-flow/static/media/HomePageBanner.88ed1f7a045ac47c88df.jpg",
+    "static/media/airplane.jpg": "/transit-flow/static/media/airplane.40245bf3eb263fbd272d.jpg",
+    "static/media/girl.jpg": "/transit-flow/static/media/girl.d678489b15a2a395a541.jpg",
     "static/media/logo.svg": "/transit-flow/static/media/logo.5fd2af73ad57dfe69932ac2611a676c0.svg",
     "static/media/instagram.svg": "/transit-flow/static/media/instagram.e5f464003b6a2b4834b1081cadc4e71f.svg",
     "static/media/phone.svg": "/transit-flow/static/media/phone.e39c63bebf30e1f583781a0938cc7abc.svg",
@@ -13,10 +16,10 @@
     "static/media/email.svg": "/transit-flow/static/media/email.9050bf5690947bd6e15984eca826857f.svg",
     "static/media/oclock.svg": "/transit-flow/static/media/oclock.68b3ad8801af32e92beb6251bdff8593.svg",
     "main.56352454.css.map": "/transit-flow/static/css/main.56352454.css.map",
-    "main.665aa679.js.map": "/transit-flow/static/js/main.665aa679.js.map"
+    "main.5aa86be3.js.map": "/transit-flow/static/js/main.5aa86be3.js.map"
   },
   "entrypoints": [
     "static/css/main.56352454.css",
-    "static/js/main.665aa679.js"
+    "static/js/main.5aa86be3.js"
   ]
 }
