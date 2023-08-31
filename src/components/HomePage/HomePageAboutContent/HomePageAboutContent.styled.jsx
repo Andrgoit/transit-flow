@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import bg from '../../img/HomePage/About/airplane.jpg';
-import image from '../../img/HomePage/About/girl.jpg';
+import bg from '../../../img/HomePage/About/airplane.jpg';
+import image from '../../../img/HomePage/About/girl.jpg';
 
 export const StyledContainer = styled.div`
   margin-top: -138px;

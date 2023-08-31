@@ -14,10 +14,10 @@ import {
 } from './HomePageServices.styled';
 
 import Label from 'components/Label/Label';
-import ship from '../../img/icons/ship.png';
-import box from '../../img/icons/box.png';
-import airplane from '../../img/icons/airplane.png';
-import car from '../../img/icons/car.png';
+import ship from '../../../img/icons/ship.png';
+import box from '../../../img/icons/box.png';
+import airplane from '../../../img/icons/airplane.png';
+import car from '../../../img/icons/car.png';
 
 export default function HomePageServices() {
   return (

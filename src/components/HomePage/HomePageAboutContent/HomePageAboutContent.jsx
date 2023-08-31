@@ -13,8 +13,9 @@ import {
   StyledContentImage,
 } from './HomePageAboutContent.styled';
 
-import box from '../../img/icons/box_round.png';
-import money from '../../img/icons/money_round.png';
+import box from '../../../img/icons/box_round.png';
+
+import money from '../../../img/icons/money_round.png';
 
 import Label from 'components/Label/Label';
 

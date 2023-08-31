@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import banner from '../../img/banners/HomePageBanner.jpg';
+import banner from '../../../img/banners/HomePageBanner.jpg';
 
 export const StyledHomePageBanner = styled.div`
   background-image: url(${banner});

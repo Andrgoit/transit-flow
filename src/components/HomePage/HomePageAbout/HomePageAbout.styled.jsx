@@ -1,10 +1,11 @@
 import styled from 'styled-components';
-import banner from '../../img/banners/HomePage_AboutBanner.jpg';
+import banner from '../../../img/banners/HomePage_AboutBanner.jpg';
 
 export const HomePageAboutContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 97px;
 `;
 
 export const StyledBanner = styled.div`
