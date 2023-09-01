@@ -5,6 +5,7 @@ import HomePageServices from 'components/HomePage/HomePageServices/HomePageServi
 import HomePageAbout from 'components/HomePage/HomePageAbout/HomePageAbout';
 import HomePageProject from 'components/HomePage/HomePageProject/HomePageProject';
 import Testimonial from 'components/HomePage/Testimonial/Testimonial';
+import Choos from 'components/HomePage/Choos/Choos';
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <HomePageAbout />
       <HomePageProject />
       <Testimonial />
+      <Choos />
       <Footer />
     </div>
   );

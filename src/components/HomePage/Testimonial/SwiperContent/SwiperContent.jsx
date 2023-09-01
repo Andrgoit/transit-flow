@@ -1,10 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
 
 import {
   StyledWrapper,
@@ -39,11 +38,11 @@ const users = [
     text: 'Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.',
   },
   {
-    name: 'Repeta Aleksander',
+    name: 'Aleksander',
     role: 'CEO',
     img: user1,
     raiting: 5,
-    text: 'Very good!!!',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum veritatis asperiores numquam animi ut pariatur molestiae. Earum, repellendus accusamus. Fugit tenetur id odit voluptas delectus doloribus excepturi, architecto sequi fuga ducimus ipsa est, possimus sed, itaque eveniet soluta earum cum?',
   },
 
   {
@@ -80,23 +79,12 @@ export default function SwiperContent() {
       <Swiper
         slidesPerView={2}
         spaceBetween={100}
-        // effect={'coverflow'}
-        // grabCursor={true}
-        // centeredSlides={true} //центрирует
         loop={true}
-        // slidesPerView={'auto'}
-        // coverflowEffect={{
-        //   rotate: 0,
-        //   stretch: 0,
-        //   depth: 100,
-        //   modifier: 2.5,
-        // }}
-
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Pagination, Navigation]}
       >
         {elements}
       </Swiper>
