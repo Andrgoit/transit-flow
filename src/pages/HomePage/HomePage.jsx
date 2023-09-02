@@ -6,6 +6,7 @@ import HomePageAbout from 'components/HomePage/HomePageAbout/HomePageAbout';
 import HomePageProject from 'components/HomePage/HomePageProject/HomePageProject';
 import Testimonial from 'components/HomePage/Testimonial/Testimonial';
 import Choos from 'components/HomePage/Choos/Choos';
+import Team from 'components/HomePage/Team/Team';
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <HomePageProject />
       <Testimonial />
       <Choos />
+      <Team />
       <Footer />
     </div>
   );
