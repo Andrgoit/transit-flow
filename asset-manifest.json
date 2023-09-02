@@ -1,36 +1,40 @@
 {
   "files": {
     "main.css": "/transit-flow/static/css/main.3a828255.css",
-    "main.js": "/transit-flow/static/js/main.da5f3f92.js",
+    "main.js": "/transit-flow/static/js/main.5a030d06.js",
     "static/media/HomePage_AboutBanner.jpg": "/transit-flow/static/media/HomePage_AboutBanner.753bf81e351b44c2bfe5.jpg",
     "static/media/banner.jpg": "/transit-flow/static/media/banner.83ab6beb2f8c34438c0e.jpg",
     "static/media/HomePageBanner.jpg": "/transit-flow/static/media/HomePageBanner.88ed1f7a045ac47c88df.jpg",
     "static/media/airplane.jpg": "/transit-flow/static/media/airplane.40245bf3eb263fbd272d.jpg",
     "static/media/4.jpg": "/transit-flow/static/media/4.70169b99575b46d9ca84.jpg",
     "static/media/5.jpg": "/transit-flow/static/media/5.1c3f96897d0c5b37ec10.jpg",
-    "static/media/1.jpg": "/transit-flow/static/media/1.6d15edfbc690d475d32b.jpg",
-    "static/media/2.jpg": "/transit-flow/static/media/2.039ecbc3743d300dd4fd.jpg",
     "static/media/3.jpg": "/transit-flow/static/media/3.0269f092d86c684849dd.jpg",
+    "static/media/1.jpg": "/transit-flow/static/media/1.6d15edfbc690d475d32b.jpg",
+    "static/media/2.jpg": "/transit-flow/static/media/2.de9e8f7e2a25ec7d9da7.jpg",
     "static/media/girl.jpg": "/transit-flow/static/media/girl.d678489b15a2a395a541.jpg",
     "static/media/user2.jpg": "/transit-flow/static/media/user2.9e39526346434c5f000c.jpg",
     "static/media/user1.jpg": "/transit-flow/static/media/user1.b01d322f662d4f9f50a9.jpg",
     "static/media/logo.svg": "/transit-flow/static/media/logo.5fd2af73ad57dfe69932ac2611a676c0.svg",
     "static/media/icon.svg": "/transit-flow/static/media/icon.a53bc47c29b108392201644df879f5ca.svg",
+    "static/media/inst.svg": "/transit-flow/static/media/inst.5813db40da77793cee67f2c398937d98.svg",
     "static/media/instagram.svg": "/transit-flow/static/media/instagram.e5f464003b6a2b4834b1081cadc4e71f.svg",
     "static/media/quote.svg": "/transit-flow/static/media/quote.77ba05d64e4f3512085d90a85bafec82.svg",
     "static/media/phone.svg": "/transit-flow/static/media/phone.e39c63bebf30e1f583781a0938cc7abc.svg",
+    "static/media/tw.svg": "/transit-flow/static/media/tw.b7bbd46ef045d2a5021c79e815a88539.svg",
     "static/media/twitter.svg": "/transit-flow/static/media/twitter.0f0eecea436815b63debcc02ee0e2c21.svg",
+    "static/media/In.svg": "/transit-flow/static/media/In.4bc90a844ed3a92b1a7dfb88c4328df9.svg",
     "static/media/linkdin.svg": "/transit-flow/static/media/linkdin.1e19b751a16ff4062baf6dbeaa043a8e.svg",
     "index.html": "/transit-flow/index.html",
     "static/media/star.svg": "/transit-flow/static/media/star.dc7e24c4ea3b543acf0eae3bea103d9b.svg",
+    "static/media/fb.svg": "/transit-flow/static/media/fb.866a12eaea92b5d8b6c23e7a90f464f7.svg",
     "static/media/facebook.svg": "/transit-flow/static/media/facebook.e9da018169fa6d50cb48de300ddd997b.svg",
     "static/media/email.svg": "/transit-flow/static/media/email.9050bf5690947bd6e15984eca826857f.svg",
     "static/media/oclock.svg": "/transit-flow/static/media/oclock.68b3ad8801af32e92beb6251bdff8593.svg",
     "main.3a828255.css.map": "/transit-flow/static/css/main.3a828255.css.map",
-    "main.da5f3f92.js.map": "/transit-flow/static/js/main.da5f3f92.js.map"
+    "main.5a030d06.js.map": "/transit-flow/static/js/main.5a030d06.js.map"
   },
   "entrypoints": [
     "static/css/main.3a828255.css",
-    "static/js/main.da5f3f92.js"
+    "static/js/main.5a030d06.js"
   ]
 }
