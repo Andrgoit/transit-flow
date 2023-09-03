@@ -7,6 +7,7 @@ import HomePageProject from 'components/HomePage/HomePageProject/HomePageProject
 import Testimonial from 'components/HomePage/Testimonial/Testimonial';
 import Choos from 'components/HomePage/Choos/Choos';
 import Team from 'components/HomePage/Team/Team';
+import Contact from 'components/HomePage/Contact/Contact';
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Testimonial />
       <Choos />
       <Team />
+      <Contact />
       <Footer />
     </div>
   );
