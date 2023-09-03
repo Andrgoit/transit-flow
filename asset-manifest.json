@@ -1,10 +1,14 @@
 {
   "files": {
     "main.css": "/transit-flow/static/css/main.3a828255.css",
-    "main.js": "/transit-flow/static/js/main.5a030d06.js",
+    "main.js": "/transit-flow/static/js/main.8a6eb071.js",
     "static/media/HomePage_AboutBanner.jpg": "/transit-flow/static/media/HomePage_AboutBanner.753bf81e351b44c2bfe5.jpg",
+    "static/media/photo4.jpg": "/transit-flow/static/media/photo4.3613040325ab0bbd3149.jpg",
+    "static/media/photo1.jpg": "/transit-flow/static/media/photo1.78c46bf8ee8864561ef5.jpg",
+    "static/media/photo2.jpg": "/transit-flow/static/media/photo2.7d51a930f97af951cce2.jpg",
     "static/media/banner.jpg": "/transit-flow/static/media/banner.83ab6beb2f8c34438c0e.jpg",
     "static/media/HomePageBanner.jpg": "/transit-flow/static/media/HomePageBanner.88ed1f7a045ac47c88df.jpg",
+    "static/media/photo3.jpg": "/transit-flow/static/media/photo3.b0bae6a727715343efe7.jpg",
     "static/media/airplane.jpg": "/transit-flow/static/media/airplane.40245bf3eb263fbd272d.jpg",
     "static/media/4.jpg": "/transit-flow/static/media/4.70169b99575b46d9ca84.jpg",
     "static/media/5.jpg": "/transit-flow/static/media/5.1c3f96897d0c5b37ec10.jpg",
@@ -15,11 +19,15 @@
     "static/media/user2.jpg": "/transit-flow/static/media/user2.9e39526346434c5f000c.jpg",
     "static/media/user1.jpg": "/transit-flow/static/media/user1.b01d322f662d4f9f50a9.jpg",
     "static/media/logo.svg": "/transit-flow/static/media/logo.5fd2af73ad57dfe69932ac2611a676c0.svg",
+    "static/media/logo3.svg": "/transit-flow/static/media/logo3.04c5f57969fb1f3a1bcc1987ede26da4.svg",
+    "static/media/logo4.svg": "/transit-flow/static/media/logo4.2a3970f300d86779a29c6c4714ed0261.svg",
+    "static/media/logo1.svg": "/transit-flow/static/media/logo1.df1c8e5e7df6cb4907edc229d12aa25f.svg",
     "static/media/icon.svg": "/transit-flow/static/media/icon.a53bc47c29b108392201644df879f5ca.svg",
     "static/media/inst.svg": "/transit-flow/static/media/inst.5813db40da77793cee67f2c398937d98.svg",
     "static/media/instagram.svg": "/transit-flow/static/media/instagram.e5f464003b6a2b4834b1081cadc4e71f.svg",
+    "static/media/logo2.svg": "/transit-flow/static/media/logo2.d7700a5d5132d3eff21b2598b30e1c69.svg",
     "static/media/quote.svg": "/transit-flow/static/media/quote.77ba05d64e4f3512085d90a85bafec82.svg",
-    "static/media/phone.svg": "/transit-flow/static/media/phone.e39c63bebf30e1f583781a0938cc7abc.svg",
+    "static/media/phone.svg": "/transit-flow/static/media/phone.02e0a45f1693859e3984b377f62ae0e3.svg",
     "static/media/tw.svg": "/transit-flow/static/media/tw.b7bbd46ef045d2a5021c79e815a88539.svg",
     "static/media/twitter.svg": "/transit-flow/static/media/twitter.0f0eecea436815b63debcc02ee0e2c21.svg",
     "static/media/In.svg": "/transit-flow/static/media/In.4bc90a844ed3a92b1a7dfb88c4328df9.svg",
@@ -30,11 +38,13 @@
     "static/media/facebook.svg": "/transit-flow/static/media/facebook.e9da018169fa6d50cb48de300ddd997b.svg",
     "static/media/email.svg": "/transit-flow/static/media/email.9050bf5690947bd6e15984eca826857f.svg",
     "static/media/oclock.svg": "/transit-flow/static/media/oclock.68b3ad8801af32e92beb6251bdff8593.svg",
+    "static/media/mail.svg": "/transit-flow/static/media/mail.ddf4375503c5f3f2edbf04a46e7830f3.svg",
+    "static/media/time.svg": "/transit-flow/static/media/time.7d7bc649b0ac8ab7d0a56952ca16408c.svg",
     "main.3a828255.css.map": "/transit-flow/static/css/main.3a828255.css.map",
-    "main.5a030d06.js.map": "/transit-flow/static/js/main.5a030d06.js.map"
+    "main.8a6eb071.js.map": "/transit-flow/static/js/main.8a6eb071.js.map"
   },
   "entrypoints": [
     "static/css/main.3a828255.css",
-    "static/js/main.5a030d06.js"
+    "static/js/main.8a6eb071.js"
   ]
 }
