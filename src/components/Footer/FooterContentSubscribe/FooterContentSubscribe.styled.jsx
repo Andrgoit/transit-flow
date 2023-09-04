@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
   padding-top: 44px;
@@ -76,6 +76,7 @@ export const StyledIcon = styled.span`
   width: 20px;
   display: block;
   fill: white;
+  transition: fill 0.3s ease-in-out;
 
   &:hover {
     fill: #f5841b;

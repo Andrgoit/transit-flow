@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
-import styled from "styled-components";
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
   list-style: none;
@@ -18,6 +18,11 @@ export const SyledLink = styled(NavLink)`
   font-style: normal;
   font-weight: 600;
   line-height: 135.023%;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: #f5841b;
+  }
 
   /* &.active {
     text-shadow: 2px 2px 6px #fff;

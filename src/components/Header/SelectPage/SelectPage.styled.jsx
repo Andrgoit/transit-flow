@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const StyledSelect = styled.select`
+export const StyledSelect = styled.div`
   background-color: transparent;
   border: none;
   outline: none;
@@ -11,9 +11,29 @@ export const StyledSelect = styled.select`
   font-style: normal;
   font-weight: 600;
   line-height: 135.023%;
+  position: relative;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: #f5841b;
+  }
 `;
 
-export const StyledOption = styled.option`
+export const StyledOptionList = styled.ul`
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #e4e4e4;
+  padding: 15px;
+  border-radius: 10px;
+  position: absolute;
+  top: 36px;
+  left: -30px;
+`;
+
+export const StyledOption = styled.li`
   color: black;
   font-size: 16px;
   font-style: normal;
@@ -24,9 +44,17 @@ export const StyledOption = styled.option`
 `;
 
 export const StyledLink = styled(Link)`
-  /* color: black;
+  color: black;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 135.023%; */
+  line-height: 135.023%;
+  text-decoration: none;
+
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: #f5841b;
+    border-bottom: 1px solid black;
+  }
 `;

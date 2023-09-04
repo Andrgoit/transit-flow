@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const StyledSocialList = styled.ul`
   list-style: none;
@@ -16,6 +16,7 @@ export const StyledIcon = styled.span`
   width: 19px;
   display: block;
   fill: white;
+  transition: fill 0.3s ease-in-out;
 
   &:hover {
     fill: #f5841b;
