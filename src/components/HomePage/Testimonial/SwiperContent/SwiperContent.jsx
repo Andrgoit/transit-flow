@@ -24,11 +24,11 @@ import Rating from '../Rating/Rating';
 
 const users = [
   {
-    name: 'Sergey Filatov',
-    role: 'Frontend Developer',
+    name: 'Bon',
+    role: 'Restoration Company',
     img: user2,
     raiting: 5,
-    text: 'Ja bi lu4we sdelal etot website',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum veritatis asperiores numquam animi ut pariatur molestiae. Earum, repellendus accusamus. Fugit tenetur id odit voluptas delectus doloribus excepturi, architecto sequi fuga ducimus ipsa est, possimus sed, itaque eveniet soluta earum cum?',
   },
   {
     name: 'Kathleen Smith',

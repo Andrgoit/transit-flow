@@ -16,32 +16,26 @@ export default function SubscribeForm() {
   const [message, setMessage] = useState('');
 
   const input = e => {
-    const name = e.target.name;
-    const value = e.target.value;
+    const { name, value } = e.target;
 
     switch (name) {
       case 'name':
-        console.log(value);
         setName(value);
         break;
 
       case 'email':
-        console.log(value);
         setEmail(value);
         break;
 
       case 'number':
-        console.log(value);
         setNumber(value);
         break;
 
       case 'city':
-        console.log(value);
         setCity(value);
         break;
 
       case 'message':
-        console.log(value);
         setMessage(value);
         break;
       default:

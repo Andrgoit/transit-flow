@@ -51,7 +51,7 @@ export const StyledButton = styled.button`
 
   &::after {
     content: '';
-    background-color: white;
+    background-color: #1f2a69;
     width: 50px;
     height: 50px;
     border-radius: 50%;
