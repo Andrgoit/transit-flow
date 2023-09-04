@@ -31,6 +31,7 @@ export const StyledOptionList = styled.ul`
   position: absolute;
   top: 36px;
   left: -30px;
+  box-shadow: 0 2px 6px black;
 `;
 
 export const StyledOption = styled.li`

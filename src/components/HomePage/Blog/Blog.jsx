@@ -31,12 +31,7 @@ const events = [
     img: bg1,
     date: { day: '08', month: 'September' },
     text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
-    textList: [
-      'Urgent transport solutions',
-      'Reliable & experienced staffs',
-      'Urgent transport solutions',
-      'Reliable & experienced staffs',
-    ],
+    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
     href: '#',
   },
   {
@@ -44,12 +39,7 @@ const events = [
     img: bg2,
     date: { day: '12', month: 'September' },
     text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
-    textList: [
-      'Urgent transport solutions',
-      'Reliable & experienced staffs',
-      'Urgent transport solutions',
-      'Reliable & experienced staffs',
-    ],
+    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
     href: '#',
   },
 
@@ -58,12 +48,7 @@ const events = [
     img: bg3,
     date: { day: '25', month: 'September' },
     text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
-    textList: [
-      'Urgent transport solutions',
-      'Reliable & experienced staffs',
-      'Urgent transport solutions',
-      'Reliable & experienced staffs',
-    ],
+    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
     href: '#',
   },
 ];
@@ -101,7 +86,7 @@ export default function Blog() {
         <Label text="Our Blog" bg="light" />
         <StyledTtileSection>Our Latest News</StyledTtileSection>
         <StyledEventsList>{elements}</StyledEventsList>
-        <StyledButton to="#">More Blog</StyledButton>
+        <StyledButton to="/blog">More Blog</StyledButton>
       </StyledContainer>
     </StyledSection>
   );

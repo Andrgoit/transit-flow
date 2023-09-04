@@ -1,17 +1,9 @@
 import { StyledContainer, StyledStar } from './Rating.styled';
 
 export default function Rating({ count }) {
-  // console.log(count);
-  // let arr = new Array(count);
-  // const elements = arr.map((cell, ar) => <StyledStar key={ar} />);
+  const myArray = Array.from({ length: count }, (_, index) => index + 1);
 
-  return (
-    <StyledContainer>
-      <StyledStar />
-      <StyledStar />
-      <StyledStar />
-      <StyledStar />
-      <StyledStar />
-    </StyledContainer>
-  );
+  const elements = myArray.map(i => <StyledStar key={i} />);
+
+  return <StyledContainer>{elements}</StyledContainer>;
 }
