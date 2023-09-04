@@ -1,8 +1,8 @@
 const links = [
-  { label: "Style Guide", href: "#" },
-  { label: "Licenses", href: "#" },
-  { label: "Changelog", href: "#" },
-  { label: "Password", href: "#" },
+  { label: 'Frontend developer', href: 'https://github.com/Andrgoit' },
+  { label: 'Licenses', href: '/licenses' },
+  { label: 'Changelog', href: '/change' },
+  { label: 'Password', href: '/protection' },
 ];
 
 export default links;

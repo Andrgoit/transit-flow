@@ -1,9 +1,8 @@
 const utilites = [
-  { label: "Style Guide", href: "#" },
-  { label: "Changelog", href: "#" },
-  { label: "Licenses", href: "#" },
-  { label: "Protected", href: "#" },
-  { label: "Not Found", href: "#" },
+  { label: 'Changelog', href: '/change' },
+  { label: 'Licenses', href: '/licenses' },
+  { label: 'Protected', href: '/protection' },
+  { label: 'Not Found', href: '/notfound' },
 ];
 
 export default utilites;

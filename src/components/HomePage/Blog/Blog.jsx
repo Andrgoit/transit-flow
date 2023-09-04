@@ -101,7 +101,7 @@ export default function Blog() {
         <Label text="Our Blog" bg="light" />
         <StyledTtileSection>Our Latest News</StyledTtileSection>
         <StyledEventsList>{elements}</StyledEventsList>
-        <StyledButton>More Blog</StyledButton>
+        <StyledButton to="#">More Blog</StyledButton>
       </StyledContainer>
     </StyledSection>
   );
