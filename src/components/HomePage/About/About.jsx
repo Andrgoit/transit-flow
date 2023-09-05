@@ -3,19 +3,19 @@ import {
   StyledBanner,
   StyledContentWrapper,
   StyledCounterWrapper,
-} from './HomePageAbout.styled';
-import HomePageAboutContent from 'components/HomePage/HomePageAboutContent/HomePageAboutContent';
-import HomePageAboutCounter from 'components/HomePage/HomePageAboutCounter/HomePageAboutCounter';
+} from './About.styled';
+import Content from 'components/HomePage/About/Content/Content';
+import Counter from 'components/HomePage/About/Counter/Counter';
 
 export default function HomePageAbout() {
   return (
     <HomePageAboutContainer>
       <StyledBanner />
       <StyledContentWrapper>
-        <HomePageAboutContent />
+        <Content />
       </StyledContentWrapper>
       <StyledCounterWrapper>
-        <HomePageAboutCounter />
+        <Counter />
       </StyledCounterWrapper>
     </HomePageAboutContainer>
   );

@@ -1,16 +1,19 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import bg from '../../../img/HomePage/About/airplane.jpg';
-import image from '../../../img/HomePage/About/girl.jpg';
+import bg from '../../../img/AboutPage/About/big.jpg';
+import image from '../../../img/AboutPage/About/small.jpg';
 
-export const StyledContainer = styled.div`
-  margin-top: -138px;
-  width: 1230px;
-  padding-top: 85px;
-  padding-left: 86px;
-  padding-right: 93px;
+export const AboutContainer = styled.div`
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+`;
+//
+export const StyledContainer = styled.div`
+  display: flex;
+  gap: 100px;
 `;
 
 export const StyledTextArea = styled.div`
@@ -81,18 +84,49 @@ export const StyledIconTitle = styled.p`
 
 export const StyledImgArea = styled.div`
   position: relative;
-  width: 461px;
-  height: 415px;
-  background-image: url(${bg});
+  width: 786px;
+  height: 426px;
+  background: url(${bg});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `;
 
 export const StyledContentImage = styled.div`
-  width: 302px;
-  height: 225px;
+  width: 264px;
+  height: 258px;
   background-image: url(${image});
-  border-top: 30px solid #fff;
-  border-right: 30px solid #fff;
+  border-top: 25px solid #fff;
+  border-left: 25px solid #fff;
   position: absolute;
-  top: 273px;
-  right: 263px;
+  bottom: -45px;
+  right: -40px;
+`;
+
+export const StyledButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+`;
+
+export const StyledButton = styled(Link)`
+  width: 194px;
+  padding: 16px 38px;
+  text-decoration: none;
+
+  font-family: Krub;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.523%;
+  cursor: pointer;
+  color: #1c1f35;
+  background-color: #f4f4f4;
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #fff;
+    background-color: #ffb82b;
+  }
 `;

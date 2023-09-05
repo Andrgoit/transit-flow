@@ -5,7 +5,7 @@ import {
   StyledNumbers,
   StyledDecor,
   StyledText,
-} from './HomePageAboutCounter.styled';
+} from './Counter.styled';
 
 export default function HomePageAboutCounter() {
   return (

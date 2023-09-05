@@ -1,7 +1,7 @@
 import HomePageBanner from 'components/HomePage/HomePageBanner/HomePageBanner';
-import HomePageServices from 'components/HomePage/HomePageServices/HomePageServices';
-import HomePageAbout from 'components/HomePage/HomePageAbout/HomePageAbout';
-import HomePageProject from 'components/HomePage/HomePageProject/HomePageProject';
+import Services from 'components/HomePage/Services/Services';
+import About from 'components/HomePage/About/About';
+import Project from 'components/HomePage/Project/Project';
 import Testimonial from 'components/HomePage/Testimonial/Testimonial';
 import Choos from 'components/HomePage/Choos/Choos';
 import Team from 'components/HomePage/Team/Team';
@@ -13,9 +13,9 @@ export default function HomePage() {
   return (
     <>
       <HomePageBanner />
-      <HomePageServices />
-      <HomePageAbout />
-      <HomePageProject />
+      <Services />
+      <About />
+      <Project />
       <Testimonial />
       <Choos />
       <Team />

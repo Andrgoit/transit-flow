@@ -4,7 +4,7 @@ import {
   StyledContentTitle,
   StyledBGContainer,
   StyledButton,
-} from './HomePageProject.styled';
+} from './Project.styled';
 import CardsList from './CardsList/CardsList';
 
 export default function HomePageProject() {

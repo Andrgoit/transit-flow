@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import banner from '../../../img/banners/HomePage_AboutBanner.jpg';
+import banner from '../../../img/HomePage/Banner/banner.jpg';
 
 export const HomePageAboutContainer = styled.div`
   display: flex;
