@@ -4,6 +4,7 @@ import Services from 'components/AboutPage/Services/Services';
 import Team from 'components/AboutPage/Team/Team';
 import Testimonial from 'components/AboutPage/Testimonial/Testimonial';
 import Pricing from 'components/AboutPage/Pricing/Pricing';
+import Faq from 'components/AboutPage/Faq/Faq';
 
 export default function AboutUsPage() {
   return (
@@ -14,6 +15,7 @@ export default function AboutUsPage() {
       <Team />
       <Testimonial />
       <Pricing />
+      <Faq />
     </>
   );
 }
