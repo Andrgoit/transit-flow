@@ -5,6 +5,7 @@ import Team from 'components/AboutPage/Team/Team';
 import Testimonial from 'components/AboutPage/Testimonial/Testimonial';
 import Pricing from 'components/AboutPage/Pricing/Pricing';
 import Faq from 'components/AboutPage/Faq/Faq';
+import ClientLogo from 'components/AboutPage/ClientLogo/ClientLogo';
 
 export default function AboutUsPage() {
   return (
@@ -16,6 +17,7 @@ export default function AboutUsPage() {
       <Testimonial />
       <Pricing />
       <Faq />
+      <ClientLogo />
     </>
   );
 }
