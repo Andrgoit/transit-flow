@@ -11,19 +11,22 @@ import {
   StyledInfoText,
   StyledInfoContainer,
   StyledLogoImgContainer,
-} from "./Footer.styled";
+} from './Footer.styled';
 
-import logo from "../../img/icons/header/logo.svg";
-import email from "../../img/icons/header/email.svg";
-import phone from "../../img/icons/header/phone.svg";
-import FooterContentPages from "./FooterContentPages/FooterContentPages";
-import FooterContentUtilites from "./FooterContentUtilites/FooterContentUtilites";
-import FooterContentSubscribe from "./FooterContentSubscribe/FooterContentSubscribe";
-import CopyrightBlock from "./CopyrightBlock/CopyrightBlock";
+import ScrollToTop from 'react-scroll-to-top';
+
+import logo from '../../img/icons/header/logo.svg';
+import email from '../../img/icons/header/email.svg';
+import phone from '../../img/icons/header/phone.svg';
+import FooterContentPages from './FooterContentPages/FooterContentPages';
+import FooterContentUtilites from './FooterContentUtilites/FooterContentUtilites';
+import FooterContentSubscribe from './FooterContentSubscribe/FooterContentSubscribe';
+import CopyrightBlock from './CopyrightBlock/CopyrightBlock';
 
 export default function Footer() {
   return (
     <StyledWrapper>
+      <ScrollToTop smooth />
       <StyledTitleSection />
       <StyledContentSection />
       <StyledCopyrightSection>
