@@ -14,6 +14,7 @@ import PricingPage from 'pages/PricingPage/PricingPage';
 import ProjectPage from 'pages/ProjectPage/ProjectPage';
 import ProtectionPage from 'pages/ProtectionPage/ProtectionPage';
 import ServicesPage from './pages/ServicesPage/ServicesPage';
+import ServicesDetailsPage from './pages/ServicesDetailsPage/ServicesDetailsPage';
 import TeamPage from 'pages/TeamPage/TeamPage';
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 
@@ -31,7 +32,9 @@ function App() {
           <Route path="/price" element={<PricingPage />} />
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/protection" element={<ProtectionPage />} />
-          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/services" element={<ServicesPage />}>
+            <Route path="details" element={<ServicesDetailsPage />} />
+          </Route>
           <Route path="/team" element={<TeamPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>

@@ -5,7 +5,7 @@ export const StyledServices = styled.div`
   width: 100%;
   padding-top: 108px;
   padding-bottom: 108px;
-  background: #f4f4f4;
+  background: #fff;
   display: flex;
   justify-content: center;
 `;

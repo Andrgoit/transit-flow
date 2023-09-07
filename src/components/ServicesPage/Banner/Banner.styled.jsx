@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import banner from '../../../img/AboutPage/Banner/banner.jpg';
+import banner from '../../../img/ServicesPage/banner.jpg';
 
-export const StyledHomePageBanner = styled.div`
+export const StyledBanner = styled.div`
   background: linear-gradient(
       91deg,
       #032d5f 18.18%,
@@ -14,7 +14,6 @@ export const StyledHomePageBanner = styled.div`
   margin-top: -78px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   width: 100vw;
   height: 497px;
   padding-top: 251px;
