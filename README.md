@@ -12,7 +12,7 @@ in progress...
 - [ ] BlogSinglePage
 - [ ] TeamPage
 - [ ] ContactPage
-- [ ] NotFoundPage
+- [x] NotFoundPage
 - [ ] PricingPage
 - [ ] ChangeLogPage
 - [ ] LicensesPage
