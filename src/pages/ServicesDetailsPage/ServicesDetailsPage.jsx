@@ -1,5 +1,11 @@
-import React from 'react';
+import Banner from 'components/ServicesDetailsPage/Banner/Banner';
+import ServiceSingle from 'components/ServicesDetailsPage/ServiceSingle/ServiceSingle';
 
 export default function ServicesDetailsPage() {
-  return <div>ServicesDetailsPage</div>;
+  return (
+    <>
+      <Banner />
+      <ServiceSingle />
+    </>
+  );
 }

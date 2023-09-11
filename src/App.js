@@ -32,9 +32,8 @@ function App() {
           <Route path="/price" element={<PricingPage />} />
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/protection" element={<ProtectionPage />} />
-          <Route path="/services" element={<ServicesPage />}>
-            <Route path="details" element={<ServicesDetailsPage />} />
-          </Route>
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/services/details" element={<ServicesDetailsPage />} />
           <Route path="/team" element={<TeamPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
