@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/transit-flow/static/css/main.5b2ff798.css",
-    "main.js": "/transit-flow/static/js/main.7fb4225b.js",
+    "main.js": "/transit-flow/static/js/main.889ae1ab.js",
     "static/media/banner.jpg": "/transit-flow/static/media/banner.83ab6beb2f8c34438c0e.jpg",
+    "static/media/ship.jpg": "/transit-flow/static/media/ship.bc3b6afb6f7ced6e3f94.jpg",
     "static/media/photo4.jpg": "/transit-flow/static/media/photo4.3613040325ab0bbd3149.jpg",
     "static/media/photo1.jpg": "/transit-flow/static/media/photo1.78c46bf8ee8864561ef5.jpg",
+    "static/media/car.jpg": "/transit-flow/static/media/car.71fce79867db0bf7926b.jpg",
     "static/media/photo2.jpg": "/transit-flow/static/media/photo2.7d51a930f97af951cce2.jpg",
     "static/media/big.jpg": "/transit-flow/static/media/big.2c9319247a06418ea5d0.jpg",
     "static/media/bg.jpg": "/transit-flow/static/media/bg.33875e7a33d5e7fcf161.jpg",
@@ -51,11 +53,12 @@
     "static/media/oclock.svg": "/transit-flow/static/media/oclock.68b3ad8801af32e92beb6251bdff8593.svg",
     "static/media/mail.svg": "/transit-flow/static/media/mail.ddf4375503c5f3f2edbf04a46e7830f3.svg",
     "static/media/time.svg": "/transit-flow/static/media/time.7d7bc649b0ac8ab7d0a56952ca16408c.svg",
+    "static/media/arrow.svg": "/transit-flow/static/media/arrow.dd84c62207336b9629812ddf560625c4.svg",
     "main.5b2ff798.css.map": "/transit-flow/static/css/main.5b2ff798.css.map",
-    "main.7fb4225b.js.map": "/transit-flow/static/js/main.7fb4225b.js.map"
+    "main.889ae1ab.js.map": "/transit-flow/static/js/main.889ae1ab.js.map"
   },
   "entrypoints": [
     "static/css/main.5b2ff798.css",
-    "static/js/main.7fb4225b.js"
+    "static/js/main.889ae1ab.js"
   ]
 }
