@@ -12,6 +12,7 @@ import ContactPage from 'pages/ContactPage/ContactPage';
 import LiecensesPage from 'pages/LiecensesPage/LiecensesPage';
 import PricingPage from 'pages/PricingPage/PricingPage';
 import ProjectPage from 'pages/ProjectPage/ProjectPage';
+import ProjectDetailsPage from 'pages/ProjectDetailsPage/ProjectDetailsPage';
 import ProtectionPage from 'pages/ProtectionPage/ProtectionPage';
 import ServicesPage from './pages/ServicesPage/ServicesPage';
 import ServicesDetailsPage from './pages/ServicesDetailsPage/ServicesDetailsPage';
@@ -31,6 +32,7 @@ function App() {
           <Route path="/licenses" element={<LiecensesPage />} />
           <Route path="/price" element={<PricingPage />} />
           <Route path="/project" element={<ProjectPage />} />
+          <Route path="/project/details" element={<ProjectDetailsPage />} />
           <Route path="/protection" element={<ProtectionPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/services/details" element={<ServicesDetailsPage />} />

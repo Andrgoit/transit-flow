@@ -1,5 +1,13 @@
-import React from "react";
+import Banner from 'components/ProjectPage/Banner/Banner';
+import Gallery from 'components/ProjectPage/Gallery/Gallery';
+import Counter from 'components/ServicesPage/Testimonial/Counter/Counter';
 
 export default function ProjectPage() {
-  return <div>ProjectPage</div>;
+  return (
+    <>
+      <Banner />
+      <Gallery />
+      <Counter />
+    </>
+  );
 }
