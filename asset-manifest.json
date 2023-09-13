@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/transit-flow/static/css/main.5b2ff798.css",
-    "main.js": "/transit-flow/static/js/main.dec85057.js",
+    "main.css": "/transit-flow/static/css/main.8db8c7b4.css",
+    "main.js": "/transit-flow/static/js/main.d47e6d75.js",
     "static/media/banner.jpg": "/transit-flow/static/media/banner.83ab6beb2f8c34438c0e.jpg",
     "static/media/ship.jpg": "/transit-flow/static/media/ship.bc3b6afb6f7ced6e3f94.jpg",
     "static/media/photo4.jpg": "/transit-flow/static/media/photo4.3613040325ab0bbd3149.jpg",
@@ -56,11 +56,11 @@
     "static/media/mail.svg": "/transit-flow/static/media/mail.ddf4375503c5f3f2edbf04a46e7830f3.svg",
     "static/media/time.svg": "/transit-flow/static/media/time.7d7bc649b0ac8ab7d0a56952ca16408c.svg",
     "static/media/arrow.svg": "/transit-flow/static/media/arrow.dd84c62207336b9629812ddf560625c4.svg",
-    "main.5b2ff798.css.map": "/transit-flow/static/css/main.5b2ff798.css.map",
-    "main.dec85057.js.map": "/transit-flow/static/js/main.dec85057.js.map"
+    "main.8db8c7b4.css.map": "/transit-flow/static/css/main.8db8c7b4.css.map",
+    "main.d47e6d75.js.map": "/transit-flow/static/js/main.d47e6d75.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b2ff798.css",
-    "static/js/main.dec85057.js"
+    "static/css/main.8db8c7b4.css",
+    "static/js/main.d47e6d75.js"
   ]
 }
