@@ -12,6 +12,7 @@ export default function Banner() {
     <StyledBanner>
       <StyledContainer>
         <StyledContentContainer>
+          <h3 className="">hello</h3>
           <Label text="Gallery" bg="dark" />
           {/* bg - "dark" or "light" */}
           <StyledTitle>Our Project</StyledTitle>

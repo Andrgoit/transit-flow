@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import './index.css';
 
 //components
 import SharedLayout from 'components/SharedLayout/SharedLayout';
