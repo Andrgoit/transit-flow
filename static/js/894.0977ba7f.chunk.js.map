@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/894.0977ba7f.chunk.js","mappings":"mLAEe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,iBACd,C","sources":["pages/ChangeLogPage/ChangeLogPage.jsx"],"sourcesContent":["import React from \"react\";\n\nexport default function ChangeLogPage() {\n  return <div>ChangeLogPage</div>;\n}\n"],"names":["ChangeLogPage","_jsx","children"],"sourceRoot":""}

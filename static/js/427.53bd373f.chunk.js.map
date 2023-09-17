@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/427.53bd373f.chunk.js","mappings":"mLAEe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,eACd,C","sources":["pages/PricingPage/PricingPage.jsx"],"sourcesContent":["import React from \"react\";\n\nexport default function PricingPage() {\n  return <div>PricingPage</div>;\n}\n"],"names":["PricingPage","_jsx","children"],"sourceRoot":""}

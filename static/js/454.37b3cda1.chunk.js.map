@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/454.37b3cda1.chunk.js","mappings":"kLAEe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,kBACd,C","sources":["pages/ProtectionPage/ProtectionPage.jsx"],"sourcesContent":["import React from \"react\";\n\nexport default function ProtectionPage() {\n  return <div>ProtectionPage</div>;\n}\n"],"names":["ProtectionPage","_jsx","children"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktransit_flow=self.webpackChunktransit_flow||[]).push([[24],{8024:function(n,e,t){t.r(e),t.d(e,{default:function(){return s}});t(2791);var r=t(184);function s(){return(0,r.jsx)("div",{children:"LiecensesPage"})}}}]);
+//# sourceMappingURL=24.1a81ddb7.chunk.js.map
