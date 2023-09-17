@@ -83,7 +83,7 @@ export default function Blog() {
   return (
     <StyledSection>
       <StyledContainer>
-        <Label text="Our Blog" bg="light" />
+        <Label text="Our Blog" />
         <StyledTtileSection>Our Latest News</StyledTtileSection>
         <StyledEventsList>{elements}</StyledEventsList>
         <StyledButton to="/blog">More Blog</StyledButton>

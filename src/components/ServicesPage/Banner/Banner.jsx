@@ -12,7 +12,7 @@ export default function Banner() {
     <StyledBanner>
       <StyledContainer>
         <StyledContentContainer>
-          <Label text="Services" bg="dark" />
+          <Label text="Services" dark />
           {/* bg - "dark" or "light" */}
           <StyledTitle>Our Logistics Service</StyledTitle>
         </StyledContentContainer>

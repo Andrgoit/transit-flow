@@ -24,7 +24,7 @@ export default function About() {
         </StyledImgArea>
 
         <StyledTextArea>
-          <Label text="About Us" bg="light" />
+          <Label text="About Us" />
           <StyledTitle>Our Company Overview</StyledTitle>
           <StyledTextContainer>
             <StyledText>

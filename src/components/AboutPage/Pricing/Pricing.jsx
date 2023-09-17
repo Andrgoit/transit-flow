@@ -37,7 +37,7 @@ export default function Pricing() {
     <StyledSection>
       <StyledContainer>
         <StyledHeader>
-          <Label text="Pricing" bg="light" />
+          <Label text="Pricing" />
           <StyledTitle>Our Best Pricing</StyledTitle>
         </StyledHeader>
         <StyledList>{elements}</StyledList>

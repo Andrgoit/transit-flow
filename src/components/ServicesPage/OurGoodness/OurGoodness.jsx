@@ -22,7 +22,7 @@ export default function OurGoodness() {
   return (
     <StyledSection>
       <StyledContainer>
-        <Label text="Our Goodness" bg="light" />
+        <Label text="Our Goodness" />
         <StyledTitle>How We Works</StyledTitle>
         <StyledWrapper>
           <StyledImgContainer>

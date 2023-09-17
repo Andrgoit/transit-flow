@@ -38,7 +38,7 @@ export default function Contact() {
         <StyledContentContainer>
           <StyledContentRow>
             <StyledTextContent>
-              <Label text="Contact" bg="dark" />
+              <Label text="Contact" dark />
               <StyledTitle>Get in touch with us</StyledTitle>
               <StyledText>
                 Leverage agile frameworks to provide a robust synopsis for

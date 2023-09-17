@@ -14,6 +14,7 @@ import {
 } from './Footer.styled';
 
 import ScrollToTop from 'react-scroll-to-top';
+import { ReactComponent as UpButton } from '../../img/icons/up.svg';
 
 import logo from '../../img/icons/header/logo.svg';
 import email from '../../img/icons/header/email.svg';
@@ -26,7 +27,7 @@ import CopyrightBlock from './CopyrightBlock/CopyrightBlock';
 export default function Footer() {
   return (
     <StyledWrapper>
-      <ScrollToTop smooth />
+      <ScrollToTop smooth component={<UpButton />} />
       <StyledTitleSection />
       <StyledContentSection />
       <StyledCopyrightSection>

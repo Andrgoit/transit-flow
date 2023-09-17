@@ -20,7 +20,7 @@ export default function Faq() {
     <StyledSection>
       <StyledWrapper>
         <StyledTextSection>
-          <Label text="FAQ" bg="light" />
+          <Label text="FAQ" />
           <StyledTitle>Frequently Asked Questions</StyledTitle>
           <Accordion />
         </StyledTextSection>

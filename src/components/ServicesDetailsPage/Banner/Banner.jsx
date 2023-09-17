@@ -12,8 +12,8 @@ export default function Banner() {
     <StyledBanner>
       <StyledContainer>
         <StyledContentContainer>
-          <Label text="Service Single" bg="dark" />
-          {/* bg - "dark" or "light" */}
+          <Label text="Service Single" dark />
+          {/* "dark" */}
           <StyledTitle>Service Details</StyledTitle>
         </StyledContentContainer>
       </StyledContainer>

@@ -14,7 +14,7 @@ export default function HomePageBanner() {
     <StyledHomePageBanner>
       <StyledContainer>
         <StyledContentContainer>
-          <Label text="Logistics & Supply Chain Solutions" bg="dark" />
+          <Label text="Logistics & Supply Chain Solutions" dark />
           {/* bg - "dark" or "light" */}
           <StyledTitle>
             Your Gateway to any Destination in the World

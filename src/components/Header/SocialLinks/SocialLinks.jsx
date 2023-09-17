@@ -1,49 +1,36 @@
-import { ReactComponent as Inst } from "../../../img/icons/header/instagram.svg";
-import { ReactComponent as Facebook } from "../../../img/icons/header/facebook.svg";
-import { ReactComponent as Twitter } from "../../../img/icons/header/twitter.svg";
-import { ReactComponent as Linkedin } from "../../../img/icons/header/linkdin.svg";
+import { Link } from 'react-router-dom';
 
-import {
-  StyledSocialList,
-  StyledSocialItem,
-  StyledLink,
-  StyledIcon,
-} from "./SocialLinks.styled";
+import { ReactComponent as Inst } from '../../../img/icons/header/instagram.svg';
+import { ReactComponent as Facebook } from '../../../img/icons/header/facebook.svg';
+import { ReactComponent as Twitter } from '../../../img/icons/header/twitter.svg';
+import { ReactComponent as Linkedin } from '../../../img/icons/header/linkdin.svg';
 
 export default function SocialLinks() {
   return (
-    <StyledSocialList>
-      <StyledSocialItem>
-        <StyledLink to="#">
-          <StyledIcon>
-            <Inst width="19px" />
-          </StyledIcon>
-        </StyledLink>
-      </StyledSocialItem>
+    <ul className=" list-none flex items-center gap-[24px]">
+      <li>
+        <Link className="w-[20px] h-[20px] socialLinks " to="#">
+          <Inst className="" width="20px" />
+        </Link>
+      </li>
 
-      <StyledSocialItem>
-        <StyledLink to="#">
-          <StyledIcon>
-            <Facebook width="19px" />
-          </StyledIcon>
-        </StyledLink>
-      </StyledSocialItem>
+      <li>
+        <Link className="w-[20px] h-[20px] socialLinks" to="#">
+          <Facebook width="20px" />
+        </Link>
+      </li>
 
-      <StyledSocialItem>
-        <StyledLink to="#">
-          <StyledIcon>
-            <Twitter width="19px" />
-          </StyledIcon>
-        </StyledLink>
-      </StyledSocialItem>
+      <li>
+        <Link className="w-[20px] h-[20px] socialLinks" to="#">
+          <Twitter width="20px" />
+        </Link>
+      </li>
 
-      <StyledSocialItem>
-        <StyledLink to="#">
-          <StyledIcon>
-            <Linkedin width="19px" />
-          </StyledIcon>
-        </StyledLink>
-      </StyledSocialItem>
-    </StyledSocialList>
+      <li>
+        <Link className="w-[20px] h-[20px] socialLinks " to="#">
+          <Linkedin width="20px" />
+        </Link>
+      </li>
+    </ul>
   );
 }

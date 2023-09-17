@@ -22,7 +22,7 @@ export default function HomePageAboutContent() {
   return (
     <StyledContainer>
       <StyledTextArea>
-        <Label text="Why Us" bg="light" />
+        <Label text="Why Us" />
         <StyledTitle>
           We provide full range global logistics solution
         </StyledTitle>

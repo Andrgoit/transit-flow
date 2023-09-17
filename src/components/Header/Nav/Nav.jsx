@@ -1,14 +1,30 @@
-import { StyledContainer, SyledLink } from './Nav.styled';
+import { NavLink } from 'react-router-dom';
 import SelectPage from '../SelectPage/SelectPage';
 
 export default function Nav() {
   return (
-    <StyledContainer>
-      <SyledLink to="/">Home</SyledLink>
-      <SyledLink to="/about">About</SyledLink>
+    <ul className="list-none flex justify-center items-center gap-[30px]">
+      <li>
+        <NavLink className="navLink" to="/">
+          Home
+        </NavLink>
+      </li>
+      <li>
+        <NavLink className="navLink" to="/about">
+          About
+        </NavLink>
+      </li>
       <SelectPage />
-      <SyledLink to="/project">Project</SyledLink>
-      <SyledLink to="/contact">Contact</SyledLink>
-    </StyledContainer>
+      <li>
+        <NavLink className="navLink" to="/project">
+          Project
+        </NavLink>
+      </li>
+      <li>
+        <NavLink className="navLink" to="/contact">
+          Contact
+        </NavLink>
+      </li>
+    </ul>
   );
 }

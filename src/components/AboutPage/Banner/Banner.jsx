@@ -12,7 +12,7 @@ export default function HomePageBanner() {
     <StyledHomePageBanner>
       <StyledContainer>
         <StyledContentContainer>
-          <Label text="About Us" bg="dark" />
+          <Label text="About Us" dark />
           {/* bg - "dark" or "light" */}
           <StyledTitle>About Our Logistics</StyledTitle>
         </StyledContentContainer>

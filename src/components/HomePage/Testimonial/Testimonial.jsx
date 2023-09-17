@@ -10,7 +10,7 @@ export default function Testimonial() {
   return (
     <StyledContainer>
       <StyledContentContainer>
-        <Label text="Testimonial" bg="light" />
+        <Label text="Testimonial" />
         <StyledTitleSection>What Our Customer Say</StyledTitleSection>
         <SwiperContent />
       </StyledContentContainer>

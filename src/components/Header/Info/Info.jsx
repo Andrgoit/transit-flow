@@ -1,40 +1,30 @@
-import {
-  StyledContainer,
-  StyledInfoList,
-  StyledInfoItem,
-  StyledInfoIcon,
-  StyledInfoText,
-} from "./Info.styled";
-
-import oclock from "../../../img/icons/header/oclock.svg";
-import email from "../../../img/icons/header/email.svg";
-import phone from "../../../img/icons/header/phone.svg";
+import oclock from '../../../img/icons/header/oclock.svg';
+import email from '../../../img/icons/header/email.svg';
+import phone from '../../../img/icons/header/phone.svg';
 
 export default function Info() {
   return (
-    <StyledContainer>
-      <StyledInfoList>
-        <StyledInfoItem>
-          <StyledInfoIcon>
-            <img src={oclock} alt="oclock" width="63px" />
-          </StyledInfoIcon>
-          <StyledInfoText>Mon - Sat 9.00 - 18.00 Sunday Closed</StyledInfoText>
-        </StyledInfoItem>
+    <ul className="flex justify-center gap-[39px]">
+      <li className="flex justify-center  gap-[17px] max-w-[256px]">
+        <div className="block w-[63px] h-[63px]">
+          <img src={oclock} alt="oclock" width="63px" />
+        </div>
+        <p className="">Mon - Sat 9.00 - 18.00 Sunday Closed</p>
+      </li>
 
-        <StyledInfoItem>
-          <StyledInfoIcon>
-            <img src={email} alt="email" />
-          </StyledInfoIcon>
-          <StyledInfoText>Email contact@logistics.com</StyledInfoText>
-        </StyledInfoItem>
+      <li className="flex justify-center  gap-[17px] max-w-[220px]">
+        <div className="block w-[63px] h-[63px]">
+          <img src={email} alt="email" />
+        </div>
+        <p className="max-w-[176px]">Email contact@logistics.com</p>
+      </li>
 
-        <StyledInfoItem>
-          <StyledInfoIcon>
-            <img src={phone} alt="phone" />
-          </StyledInfoIcon>
-          <StyledInfoText>Call Us (00) 112 365 489</StyledInfoText>
-        </StyledInfoItem>
-      </StyledInfoList>
-    </StyledContainer>
+      <li className="flex justify-center  gap-[17px] max-w-[184px]">
+        <div className="block w-[63px] h-[63px]">
+          <img src={phone} alt="phone" />
+        </div>
+        <p className="max-w-[176px]">Call Us (00) 112 365 489</p>
+      </li>
+    </ul>
   );
 }

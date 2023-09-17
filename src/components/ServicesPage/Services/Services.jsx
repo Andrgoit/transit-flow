@@ -29,7 +29,7 @@ export default function HomePageServices() {
       <StyledContainer>
         <StyledContent>
           <StyledTitleSection>
-            <Label text="What We Do" bg="light" />
+            <Label text="What We Do" />
             <StyledTitle>Our Logistics Services</StyledTitle>
           </StyledTitleSection>
           <StyledContentList>

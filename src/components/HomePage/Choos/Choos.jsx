@@ -40,7 +40,7 @@ export default function Choos() {
       </StyledImageSide>
       <StyledContentSide>
         <StyledContentContainer>
-          <Label text="Why Choose" bg="light" />
+          <Label text="Why Choose" />
           <StyledContentTitile>
             We create opportunity to reach potential
           </StyledContentTitile>

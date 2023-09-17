@@ -1,7 +1,7 @@
+@import 'modern-normalize/modern-normalize.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'modern-normalize/modern-normalize.css';
 
 * {
   box-sizing: border-box;
@@ -30,4 +30,13 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+@layer components {
+  .navLink {
+    @apply text-white text-base font-semibold leading-5 transition-colors duration-300 hover:text-[#f5841b] ease-in-out;
+  }
+  .socialLinks {
+    @apply block fill-white transition-colors duration-300 hover:fill-[#f5841b];
+  }
 }

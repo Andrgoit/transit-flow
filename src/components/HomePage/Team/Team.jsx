@@ -101,7 +101,7 @@ export default function Team() {
   return (
     <StyledContainer>
       <StyledContentContainer>
-        <Label text="The Transporters" bg="light" />
+        <Label text="The Transporters" />
         <StyledTitleSection>Meet Expert Team</StyledTitleSection>
         <StyledCardList>{elements}</StyledCardList>
       </StyledContentContainer>

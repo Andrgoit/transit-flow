@@ -1,5 +1,9 @@
-import React from 'react';
+import Banner from 'components/ProjectDetailsPage/Banner/Banner';
 
 export default function ProjectDetailsPage() {
-  return <div>ProjectDetailsPage</div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 }
