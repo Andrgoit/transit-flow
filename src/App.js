@@ -1,28 +1,38 @@
 import { Routes, Route } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
 import './index.css';
 
 //components
 import SharedLayout from 'components/SharedLayout/SharedLayout';
+import Loader from 'components/Loader/Loader';
+
+// const LoginPage = lazy(() => import('pages/LoginPage/LoginPage'));
 
 // pages
-import HomePage from './pages/HomePage/HomePage';
-import AboutPage from './pages/AboutUsPage/AboutUsPage';
-import BlogPage from './pages/BlogPage/BlogPage';
-import ChangeLogPage from './pages/ChangeLogPage/ChangeLogPage';
-import ContactPage from 'pages/ContactPage/ContactPage';
-import LiecensesPage from 'pages/LiecensesPage/LiecensesPage';
-import PricingPage from 'pages/PricingPage/PricingPage';
-import ProjectPage from 'pages/ProjectPage/ProjectPage';
-import ProjectDetailsPage from 'pages/ProjectDetailsPage/ProjectDetailsPage';
-import ProtectionPage from 'pages/ProtectionPage/ProtectionPage';
-import ServicesPage from './pages/ServicesPage/ServicesPage';
-import ServicesDetailsPage from './pages/ServicesDetailsPage/ServicesDetailsPage';
-import TeamPage from 'pages/TeamPage/TeamPage';
-import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
+const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
+const AboutPage = lazy(() => import('./pages/AboutUsPage/AboutUsPage'));
+const BlogPage = lazy(() => import('./pages/BlogPage/BlogPage'));
+const ChangeLogPage = lazy(() => import('./pages/ChangeLogPage/ChangeLogPage'));
+const ContactPage = lazy(() => import('pages/ContactPage/ContactPage'));
+const LiecensesPage = lazy(() => import('pages/LiecensesPage/LiecensesPage'));
+const PricingPage = lazy(() => import('pages/PricingPage/PricingPage'));
+const ProjectPage = lazy(() => import('pages/ProjectPage/ProjectPage'));
+const ProjectDetailsPage = lazy(() =>
+  import('pages/ProjectDetailsPage/ProjectDetailsPage')
+);
+const ProtectionPage = lazy(() =>
+  import('pages/ProtectionPage/ProtectionPage')
+);
+const ServicesPage = lazy(() => import('./pages/ServicesPage/ServicesPage'));
+const ServicesDetailsPage = lazy(() =>
+  import('./pages/ServicesDetailsPage/ServicesDetailsPage')
+);
+const TeamPage = lazy(() => import('pages/TeamPage/TeamPage'));
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));
 
 function App() {
   return (
-    <>
+    <Suspense fallback={<Loader />}>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<HomePage />} />
@@ -41,7 +51,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
-    </>
+    </Suspense>
   );
 }
 
