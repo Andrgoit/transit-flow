@@ -6,8 +6,6 @@ import './index.css';
 import SharedLayout from 'components/SharedLayout/SharedLayout';
 import Loader from 'components/Loader/Loader';
 
-// const LoginPage = lazy(() => import('pages/LoginPage/LoginPage'));
-
 // pages
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const AboutPage = lazy(() => import('./pages/AboutUsPage/AboutUsPage'));

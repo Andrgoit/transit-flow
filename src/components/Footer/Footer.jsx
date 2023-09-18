@@ -1,24 +1,7 @@
-import {
-  StyledWrapper,
-  StyledTitleSection,
-  StyledContentSection,
-  StyledCopyrightSection,
-  StyledLogo,
-  StyledLogoText,
-  StyledContent,
-  StyledInfoItem,
-  StyledInfoIcon,
-  StyledInfoText,
-  StyledInfoContainer,
-  StyledLogoImgContainer,
-} from './Footer.styled';
-
 import ScrollToTop from 'react-scroll-to-top';
 import { ReactComponent as UpButton } from '../../img/icons/up.svg';
 
-import logo from '../../img/icons/header/logo.svg';
-import email from '../../img/icons/header/email.svg';
-import phone from '../../img/icons/header/phone.svg';
+import FooterContentLogo from './FooterContentLogo/FooterContentLogo';
 import FooterContentPages from './FooterContentPages/FooterContentPages';
 import FooterContentUtilites from './FooterContentUtilites/FooterContentUtilites';
 import FooterContentSubscribe from './FooterContentSubscribe/FooterContentSubscribe';
@@ -26,43 +9,18 @@ import CopyrightBlock from './CopyrightBlock/CopyrightBlock';
 
 export default function Footer() {
   return (
-    <StyledWrapper>
+    <footer className=" relative flex flex-col items-center bg-[#091242]">
       <ScrollToTop smooth component={<UpButton />} />
-      <StyledTitleSection />
-      <StyledContentSection />
-      <StyledCopyrightSection>
-        <CopyrightBlock />
-      </StyledCopyrightSection>
+      <div className="w-full h-[118px] bg-[#ffffff14]" />
+      <div className="w-full h-[372px] shadow-[0px_4px_4px_0px_#8388a7]" />
+      <CopyrightBlock />
 
-      <StyledContent>
-        <StyledLogo>
-          <StyledLogoImgContainer>
-            <img src={logo} alt="" width="210px" height="36px" />
-          </StyledLogoImgContainer>
-          <StyledLogoText>
-            Leverage agile frameworks to provide a robust synopsis for strategy
-            collaborative thinking to further the overall value proposition.
-          </StyledLogoText>
-          <StyledInfoContainer>
-            <StyledInfoItem>
-              <StyledInfoIcon>
-                <img src={email} alt="email" />
-              </StyledInfoIcon>
-              <StyledInfoText>Email contact@logistics.com</StyledInfoText>
-            </StyledInfoItem>
-
-            <StyledInfoItem>
-              <StyledInfoIcon>
-                <img src={phone} alt="phone" />
-              </StyledInfoIcon>
-              <StyledInfoText>Call Us (00) 112 365 489</StyledInfoText>
-            </StyledInfoItem>
-          </StyledInfoContainer>
-        </StyledLogo>
+      <div className="absolute top-0 mx-auto flex">
+        <FooterContentLogo />
         <FooterContentPages />
         <FooterContentUtilites />
         <FooterContentSubscribe />
-      </StyledContent>
-    </StyledWrapper>
+      </div>
+    </footer>
   );
 }

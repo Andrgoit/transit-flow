@@ -39,4 +39,7 @@ img {
   .socialLinks {
     @apply block fill-white transition-colors duration-300 hover:fill-[#f5841b];
   }
+  .footerTitle {
+    @apply text-white font-rubik text-2xl font-medium mb-[74px];
+  }
 }
