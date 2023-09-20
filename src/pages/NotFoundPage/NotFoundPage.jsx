@@ -7,8 +7,8 @@ import {
   StyledText,
 } from './NotFoundPage.styled';
 
-import Banner from 'components/NotFoundPage/Banner/Banner';
-import Button from 'components/NotFoundPage/Button/Buttom';
+import Banner from '../../components/NotFoundPage/Banner/Banner';
+import Button from '../../components/NotFoundPage/Button/Buttom';
 
 export default function NotFoundPage() {
   return (

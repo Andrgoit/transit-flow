@@ -15,7 +15,7 @@ import {
   StyledIcon,
   StyledIconText,
 } from './Choos.styled';
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 
 // import icons
 import box from '../../../img/icons/box_round.png';

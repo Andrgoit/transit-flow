@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 li {
   list-style: none;
 }
@@ -34,12 +38,15 @@ img {
 
 @layer components {
   .navLink {
-    @apply text-white text-base font-semibold leading-5 transition-colors duration-300 hover:text-[#f5841b] ease-in-out;
+    @apply text-white text-base font-semibold leading-5 transition-colors duration-200 hover:text-primary-yelow ease-in-out;
   }
   .socialLinks {
-    @apply block fill-white transition-colors duration-300 hover:fill-[#f5841b];
+    @apply block fill-white transition-colors duration-200 hover:fill-primary-yelow;
   }
   .footerTitle {
     @apply text-white font-rubik text-2xl font-medium mb-[74px];
+  }
+  .containerStyled {
+    @apply max-w-[1230px] mx-auto px-[15px];
   }
 }

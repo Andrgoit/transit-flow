@@ -14,7 +14,7 @@ import {
   StyledButton,
 } from './Pricing.styled';
 import prices from './prices';
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 
 export default function Pricing() {
   const elements = prices.map(({ name, price, href, lists }) => (

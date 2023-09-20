@@ -13,7 +13,7 @@ import {
 
 import Buttom from './Button/Buttom';
 
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 
 export default function About() {
   return (

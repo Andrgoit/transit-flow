@@ -1,5 +1,5 @@
-import Label from 'components/Label/Label';
-import banner from 'img/ProjectDetailsPage/banner.jpg';
+import Label from '../../../components/Label/Label';
+import banner from '../../../img/ProjectDetailsPage/banner.jpg';
 
 export default function Banner() {
   return (

@@ -14,7 +14,7 @@ import {
   StyledIconWrapper,
   StyledIconText,
 } from './Contact.styled';
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 import SubscribeForm from './SubscribeForm/SubscribeForm';
 
 import bg1 from '../../../img/HomePage/Contact/photo1.jpg';

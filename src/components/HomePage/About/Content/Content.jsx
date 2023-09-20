@@ -16,7 +16,7 @@ import {
 import box from '../../../../img/icons/box_round.png';
 import money from '../../../../img/icons/money_round.png';
 
-import Label from 'components/Label/Label';
+import Label from '../../../../components/Label/Label';
 
 export default function HomePageAboutContent() {
   return (

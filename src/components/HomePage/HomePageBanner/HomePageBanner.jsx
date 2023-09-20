@@ -7,7 +7,7 @@ import {
   StyledButton,
 } from './HomePageBanner.styled';
 
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 
 export default function HomePageBanner() {
   return (

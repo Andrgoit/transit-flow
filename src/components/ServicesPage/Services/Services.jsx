@@ -13,7 +13,7 @@ import {
   StyledText,
 } from './Services.styled';
 
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 import Button from './Button/Buttom';
 
 import ship from '../../../img/icons/ship.png';

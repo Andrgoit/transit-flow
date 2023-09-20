@@ -1,7 +1,9 @@
-import Banner from 'components/ServicesPage/Banner/Banner';
-import Services from 'components/ServicesPage/Services/Services';
-import OurGoodness from 'components/ServicesPage/OurGoodness/OurGoodness';
-import Testimonial from 'components/ServicesPage/Testimonial/Testimonial';
+import {
+  Banner,
+  Services,
+  OurGoodness,
+  Testimonial,
+} from '../../components/ServicesPage';
 
 export default function ServicesPage() {
   return (

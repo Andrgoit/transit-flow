@@ -12,7 +12,8 @@ import {
   StyledIconTitile,
   SrtledIconText,
 } from './OurGoodness.styled';
-import Label from 'components/Label/Label';
+
+import Label from '../../../components/Label/Label';
 
 import icon1 from '../../../img/ServicesPage/box.svg';
 import icon2 from '../../../img/ServicesPage/sheild.svg';

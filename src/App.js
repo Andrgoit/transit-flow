@@ -3,29 +3,29 @@ import { lazy, Suspense } from 'react';
 import './index.css';
 
 //components
-import SharedLayout from 'components/SharedLayout/SharedLayout';
-import Loader from 'components/Loader/Loader';
+import SharedLayout from './components/SharedLayout/SharedLayout';
+import Loader from './components/Loader/Loader';
 
 // pages
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const AboutPage = lazy(() => import('./pages/AboutUsPage/AboutUsPage'));
 const BlogPage = lazy(() => import('./pages/BlogPage/BlogPage'));
 const ChangeLogPage = lazy(() => import('./pages/ChangeLogPage/ChangeLogPage'));
-const ContactPage = lazy(() => import('pages/ContactPage/ContactPage'));
-const LiecensesPage = lazy(() => import('pages/LiecensesPage/LiecensesPage'));
-const PricingPage = lazy(() => import('pages/PricingPage/PricingPage'));
-const ProjectPage = lazy(() => import('pages/ProjectPage/ProjectPage'));
+const ContactPage = lazy(() => import('./pages/ContactPage/ContactPage'));
+const LiecensesPage = lazy(() => import('./pages/LiecensesPage/LiecensesPage'));
+const PricingPage = lazy(() => import('./pages/PricingPage/PricingPage'));
+const ProjectPage = lazy(() => import('./pages/ProjectPage/ProjectPage'));
 const ProjectDetailsPage = lazy(() =>
-  import('pages/ProjectDetailsPage/ProjectDetailsPage')
+  import('./pages/ProjectDetailsPage/ProjectDetailsPage')
 );
 const ProtectionPage = lazy(() =>
-  import('pages/ProtectionPage/ProtectionPage')
+  import('./pages/ProtectionPage/ProtectionPage')
 );
 const ServicesPage = lazy(() => import('./pages/ServicesPage/ServicesPage'));
 const ServicesDetailsPage = lazy(() =>
   import('./pages/ServicesDetailsPage/ServicesDetailsPage')
 );
-const TeamPage = lazy(() => import('pages/TeamPage/TeamPage'));
+const TeamPage = lazy(() => import('./pages/TeamPage/TeamPage'));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage/NotFoundPage'));
 
 function App() {

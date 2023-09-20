@@ -1,4 +1,3 @@
-import Label from 'components/Label/Label';
 import {
   StyledSection,
   StyledContainer,
@@ -18,6 +17,8 @@ import {
   StyledImgLink,
   StyledButton,
 } from './Blog.styled';
+
+import Label from '../../../components/Label/Label';
 
 import bg1 from '../../../img/HomePage/Blog/bg1.jpg';
 import bg2 from '../../../img/HomePage/Blog/bg2.jpg';

@@ -4,8 +4,8 @@ import {
   StyledContentWrapper,
   StyledCounterWrapper,
 } from './About.styled';
-import Content from 'components/HomePage/About/Content/Content';
-import Counter from 'components/HomePage/About/Counter/Counter';
+import Content from '../../../components/HomePage/About/Content/Content';
+import Counter from '../../../components/HomePage/About/Counter/Counter';
 
 export default function HomePageAbout() {
   return (

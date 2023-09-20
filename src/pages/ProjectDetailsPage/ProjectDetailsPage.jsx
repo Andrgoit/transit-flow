@@ -1,9 +1,19 @@
-import Banner from 'components/ProjectDetailsPage/Banner/Banner';
+import {
+  Banner,
+  Gallery,
+  ProjectDetails,
+  Transportation,
+  Video,
+} from '../../components/ProjectDetailsPage/';
 
 export default function ProjectDetailsPage() {
   return (
-    <div>
+    <>
       <Banner />
-    </div>
+      <ProjectDetails />
+      <Transportation />
+      <Video />
+      <Gallery />
+    </>
   );
 }

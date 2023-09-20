@@ -3,7 +3,8 @@ import {
   StyledContentContainer,
   StyledTitleSection,
 } from './Testimonial.styled';
-import Label from 'components/Label/Label';
+
+import Label from '../../../components/Label/Label';
 import SwiperContent from './SwiperContent/SwiperContent';
 
 export default function Testimonial() {

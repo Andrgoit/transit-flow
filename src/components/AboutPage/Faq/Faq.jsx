@@ -11,7 +11,7 @@ import {
   StyledIconText,
   StyledButton,
 } from './Faq.styled';
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 
 import Accordion from './Accordion/Accordion';
 

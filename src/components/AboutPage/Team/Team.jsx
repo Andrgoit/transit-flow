@@ -12,7 +12,7 @@ import {
   StyledLink,
 } from './Team.styled';
 
-import Label from 'components/Label/Label';
+import Label from '../../../components/Label/Label';
 
 import user1 from '../../../img/HomePage/Team/1.jpg';
 import user2 from '../../../img/HomePage/Team/2.jpg';
