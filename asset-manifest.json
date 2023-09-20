@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/transit-flow/static/css/main.5f444fcf.css",
-    "main.js": "/transit-flow/static/js/main.7ee81285.js",
+    "main.css": "/transit-flow/static/css/main.83d0938c.css",
+    "main.js": "/transit-flow/static/js/main.520c1dc4.js",
     "static/css/218.dfff7897.chunk.css": "/transit-flow/static/css/218.dfff7897.chunk.css",
-    "static/js/218.5de8d3d4.chunk.js": "/transit-flow/static/js/218.5de8d3d4.chunk.js",
+    "static/js/218.68533202.chunk.js": "/transit-flow/static/js/218.68533202.chunk.js",
     "static/css/676.3c0b3db0.chunk.css": "/transit-flow/static/css/676.3c0b3db0.chunk.css",
     "static/js/676.6caeef69.chunk.js": "/transit-flow/static/js/676.6caeef69.chunk.js",
     "static/js/975.50d6bfa9.chunk.js": "/transit-flow/static/js/975.50d6bfa9.chunk.js",
@@ -79,10 +79,10 @@
     "static/media/mail.svg": "/transit-flow/static/media/mail.ddf4375503c5f3f2edbf04a46e7830f3.svg",
     "static/media/time.svg": "/transit-flow/static/media/time.7d7bc649b0ac8ab7d0a56952ca16408c.svg",
     "static/media/arrow.svg": "/transit-flow/static/media/arrow.dd84c62207336b9629812ddf560625c4.svg",
-    "main.5f444fcf.css.map": "/transit-flow/static/css/main.5f444fcf.css.map",
-    "main.7ee81285.js.map": "/transit-flow/static/js/main.7ee81285.js.map",
+    "main.83d0938c.css.map": "/transit-flow/static/css/main.83d0938c.css.map",
+    "main.520c1dc4.js.map": "/transit-flow/static/js/main.520c1dc4.js.map",
     "218.dfff7897.chunk.css.map": "/transit-flow/static/css/218.dfff7897.chunk.css.map",
-    "218.5de8d3d4.chunk.js.map": "/transit-flow/static/js/218.5de8d3d4.chunk.js.map",
+    "218.68533202.chunk.js.map": "/transit-flow/static/js/218.68533202.chunk.js.map",
     "676.3c0b3db0.chunk.css.map": "/transit-flow/static/css/676.3c0b3db0.chunk.css.map",
     "676.6caeef69.chunk.js.map": "/transit-flow/static/js/676.6caeef69.chunk.js.map",
     "975.50d6bfa9.chunk.js.map": "/transit-flow/static/js/975.50d6bfa9.chunk.js.map",
@@ -103,7 +103,7 @@
     "653.777dfe3f.chunk.js.map": "/transit-flow/static/js/653.777dfe3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f444fcf.css",
-    "static/js/main.7ee81285.js"
+    "static/css/main.83d0938c.css",
+    "static/js/main.520c1dc4.js"
   ]
 }
