@@ -26,7 +26,7 @@ export default function Faq() {
         </StyledTextSection>
         <StyledImgSection>
           <StyledContentWrapper>
-            <Label text="Let's Talk" bg="dark" />
+            <Label text="Let's Talk" dark />
             <StyledContentTitle>
               You need any help? get free consultation
             </StyledContentTitle>

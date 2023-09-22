@@ -1,5 +1,10 @@
-import React from "react";
+import { Banner, Blog } from '../../components/BlogPage';
 
 export default function BlogPage() {
-  return <div>BlogPage</div>;
+  return (
+    <>
+      <Banner />
+      <Blog />
+    </>
+  );
 }

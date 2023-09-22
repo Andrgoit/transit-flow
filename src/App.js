@@ -10,6 +10,9 @@ import Loader from './components/Loader/Loader';
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const AboutPage = lazy(() => import('./pages/AboutUsPage/AboutUsPage'));
 const BlogPage = lazy(() => import('./pages/BlogPage/BlogPage'));
+const BlogDetailsPage = lazy(() =>
+  import('./pages/BlogDetailsPage/BlogDetailsPage')
+);
 const ChangeLogPage = lazy(() => import('./pages/ChangeLogPage/ChangeLogPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage/ContactPage'));
 const LiecensesPage = lazy(() => import('./pages/LiecensesPage/LiecensesPage'));
@@ -36,6 +39,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/details" element={<BlogDetailsPage />} />
           <Route path="/change" element={<ChangeLogPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/licenses" element={<LiecensesPage />} />
