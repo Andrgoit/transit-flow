@@ -8,7 +8,7 @@ in progress...
 - [x] ServiceSinglePage
 - [x] ProjectPage
 - [x] ProjectSinglePage
-- [ ] BlogPage
+- [x] BlogPage
 - [ ] BlogSinglePage
 - [ ] TeamPage
 - [ ] ContactPage
