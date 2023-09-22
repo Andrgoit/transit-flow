@@ -9,7 +9,7 @@ in progress...
 - [x] ProjectPage
 - [x] ProjectSinglePage
 - [x] BlogPage
-- [ ] BlogSinglePage
+- [x] BlogSinglePage
 - [ ] TeamPage
 - [ ] ContactPage
 - [x] NotFoundPage
