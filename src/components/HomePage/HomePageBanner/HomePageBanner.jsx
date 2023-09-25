@@ -1,32 +1,32 @@
-import {
-  StyledHomePageBanner,
-  StyledContainer,
-  StyledContentContainer,
-  StyledTitle,
-  StyledText,
-  StyledButton,
-} from './HomePageBanner.styled';
-
+import banner from '../../../img/banners/HomePageBanner.jpg';
 import Label from '../../../components/Label/Label';
+import LinkButton from '../../LinkButton/LinkButton';
 
 export default function HomePageBanner() {
   return (
-    <StyledHomePageBanner>
-      <StyledContainer>
-        <StyledContentContainer>
+    <div
+      className="w-full h-[1035px] mt-[-78px]  relative"
+      style={{
+        backgroundImage: `url(${banner})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}
+    >
+      <div className="containerStyled flex flex-col justify-end mb-auto">
+        <div className="flex flex-col w-[571px] absolute bottom-[218px] ">
           <Label text="Logistics & Supply Chain Solutions" dark />
           {/* bg - "dark" or "light" */}
-          <StyledTitle>
+          <h2 className=" font-rubik text-white font-bold text-6xl mt-2">
             Your Gateway to any Destination in the World
-          </StyledTitle>
-          <StyledText>
+          </h2>
+          <p className=" font-krab text-white text-base font-medium mt-2 mb-6">
             In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie
             in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus
             finibus, enim diam interdum nulla, sed laoreet risus lectus.{' '}
-          </StyledText>
-          <StyledButton type="button">Explore More</StyledButton>
-        </StyledContentContainer>
-      </StyledContainer>
-    </StyledHomePageBanner>
+          </p>
+          <LinkButton yelow>Explore More</LinkButton>
+        </div>
+      </div>
+    </div>
   );
 }

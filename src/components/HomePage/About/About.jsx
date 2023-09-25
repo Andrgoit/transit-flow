@@ -7,7 +7,7 @@ import {
 import Content from '../../../components/HomePage/About/Content/Content';
 import Counter from '../../../components/HomePage/About/Counter/Counter';
 
-export default function HomePageAbout() {
+export default function About() {
   return (
     <HomePageAboutContainer>
       <StyledBanner />

@@ -47,6 +47,6 @@ img {
     @apply text-white font-rubik text-2xl font-medium mb-[74px];
   }
   .containerStyled {
-    @apply max-w-[1230px] mx-auto px-[15px];
+    @apply w-[1230px] mx-auto px-[15px];
   }
 }

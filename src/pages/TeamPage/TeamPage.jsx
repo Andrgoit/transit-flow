@@ -1,5 +1,11 @@
-import React from "react";
+import { Banner, Team } from '../../components/TeamPage';
+import { teamPageCards } from '../../data/teamData';
 
 export default function TeamPage() {
-  return <div>TeamPage</div>;
+  return (
+    <>
+      <Banner />
+      <Team cards={teamPageCards} />
+    </>
+  );
 }

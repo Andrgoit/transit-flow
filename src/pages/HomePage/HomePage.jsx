@@ -11,6 +11,9 @@ import {
   PreFooterBanner,
 } from '../../components/HomePage';
 
+import { cards } from '../../data/teamData';
+import users from '../../data/testimonialData';
+
 export default function HomePage() {
   return (
     <>
@@ -18,9 +21,9 @@ export default function HomePage() {
       <Services />
       <About />
       <Project />
-      <Testimonial />
+      <Testimonial users={users} />
       <Choos />
-      <Team />
+      <Team cards={cards} />
       <Contact />
       <Blog />
       <PreFooterBanner />

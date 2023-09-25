@@ -1,6 +1,11 @@
 import { Link } from 'react-router-dom';
 
-export default function LinkButton({ to, children, yelow = false }) {
+export default function LinkButton({
+  to = '',
+  children,
+  yelow = false,
+  className,
+}) {
   return (
     <Link
       className={`w-[194px] py-5 px-12 font-krab text-center text-base font-semibold ${
