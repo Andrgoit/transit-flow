@@ -4,7 +4,35 @@ import bg3 from '../img/HomePage/Blog/bg3.jpg';
 import bg4 from '../img/BlogPage/img4.jpg';
 import bg5 from '../img/BlogPage/img5.jpg';
 
-const events = [
+const homePageEvents = [
+  {
+    title: 'Inland freight a worthy solution for your business',
+    img: bg1,
+    date: { day: '08', month: 'March' },
+    text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
+    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
+    href: '/blog/details',
+  },
+  {
+    title: 'How technology can help redraw the supply chain map',
+    img: bg2,
+    date: { day: '12', month: 'March' },
+    text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
+    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
+    href: '/blog/details',
+  },
+
+  {
+    title: 'Five things you should have ready for your broker',
+    img: bg3,
+    date: { day: '25', month: 'March' },
+    text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
+    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
+    href: '/blog/details',
+  },
+];
+
+const blogPageEvents = [
   {
     title: 'Inland freight a worthy solution for your business',
     img: bg1,
@@ -50,4 +78,4 @@ const events = [
   },
 ];
 
-export default events;
+export { blogPageEvents, homePageEvents };

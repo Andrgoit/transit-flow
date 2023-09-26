@@ -14,9 +14,11 @@ import {
 
 //data
 import { cards } from '../../data/teamData';
+import { homePageEvents } from '../../data/blogData';
 import users from '../../data/testimonialData';
 import projectCards from '../../data/projectData';
 import services from '../../data/servicesData';
+import homePageChooses from '../../data/choosData';
 
 export default function HomePage() {
   return (
@@ -26,10 +28,10 @@ export default function HomePage() {
       <About />
       <Project cards={projectCards} />
       <Testimonial users={users} />
-      <Choos />
+      <Choos chooses={homePageChooses} />
       <Team cards={cards} />
       <Contact />
-      <Blog />
+      <Blog events={homePageEvents} />
       <PreFooterBanner />
     </>
   );

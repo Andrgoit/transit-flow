@@ -1,43 +1,8 @@
 import { Link } from 'react-router-dom';
+import Label from '../../components/Label/Label';
+import calendar from '../../img/HomePage/Blog/calendar.svg';
 
-import Label from '../../../components/Label/Label';
-import LinkButton from '../../LinkButton/LinkButton';
-
-import bg1 from '../../../img/HomePage/Blog/bg1.jpg';
-import bg2 from '../../../img/HomePage/Blog/bg2.jpg';
-import bg3 from '../../../img/HomePage/Blog/bg3.jpg';
-
-import calendar from '../../../img/HomePage/Blog/calendar.svg';
-
-const events = [
-  {
-    title: 'Inland freight a worthy solution for your business',
-    img: bg1,
-    date: { day: '08', month: 'September' },
-    text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
-    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
-    href: '/blog/details',
-  },
-  {
-    title: 'How technology can help redraw the supply chain map',
-    img: bg2,
-    date: { day: '12', month: 'September' },
-    text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
-    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
-    href: '/blog/details',
-  },
-
-  {
-    title: 'Five things you should have ready for your broker',
-    img: bg3,
-    date: { day: '25', month: 'September' },
-    text: 'We are dedicated in creating added value for our customers by implementing modern technology in our work. ',
-    textList: ['Urgent transport solutions', 'Reliable & experienced staffs'],
-    href: '/blog/details',
-  },
-];
-
-export default function Blog() {
+export default function Blog({ events }) {
   const elements = events.map(
     ({ title, img, date: { day, month }, text, textList, href }) => (
       <li
@@ -99,8 +64,7 @@ export default function Blog() {
         <h3 className=" font-rubik text-4xl font-semibold text-heading-color pt-3 pb-10">
           Our Latest News
         </h3>
-        <ul className="flex flex-col mb-10">{elements}</ul>
-        <LinkButton to="/blog">More Blog</LinkButton>
+        <ul className="flex flex-col ">{elements}</ul>
       </div>
     </section>
   );

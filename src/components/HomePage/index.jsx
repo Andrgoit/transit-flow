@@ -6,7 +6,7 @@ import Testimonial from '../Testimonial/Testimonial';
 import Choos from './Choos/Choos';
 import Team from '../Team/Team';
 import Contact from './Contact/Contact';
-import Blog from './Blog/Blog';
+import Blog from '../Blog/Blog';
 import PreFooterBanner from './PreFooterBanner/PreFooterBanner';
 
 export {
