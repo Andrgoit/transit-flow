@@ -8,7 +8,7 @@ import {
 
 import items from './items';
 
-export default function HomePageAboutCounter() {
+export default function Counter() {
   const elements = items.map(({ label, number }) => (
     <StyledCounterItem key={label}>
       <StyledNumbers>{number}</StyledNumbers>

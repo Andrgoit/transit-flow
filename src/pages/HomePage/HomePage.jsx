@@ -1,3 +1,4 @@
+//pages
 import {
   HomePageBanner,
   Services,
@@ -11,16 +12,19 @@ import {
   PreFooterBanner,
 } from '../../components/HomePage';
 
+//data
 import { cards } from '../../data/teamData';
 import users from '../../data/testimonialData';
+import projectCards from '../../data/projectData';
+import services from '../../data/servicesData';
 
 export default function HomePage() {
   return (
     <>
       <HomePageBanner />
-      <Services />
+      <Services services={services} />
       <About />
-      <Project />
+      <Project cards={projectCards} />
       <Testimonial users={users} />
       <Choos />
       <Team cards={cards} />

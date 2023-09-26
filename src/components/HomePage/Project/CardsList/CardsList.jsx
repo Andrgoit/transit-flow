@@ -1,35 +1,26 @@
-import img1 from '../../../../img/HomePage/Project/1.jpg';
-import img2 from '../../../../img/HomePage/Project/2.jpg';
-import img3 from '../../../../img/HomePage/Project/3.jpg';
-import img4 from '../../../../img/HomePage/Project/4.jpg';
-import img5 from '../../../../img/HomePage/Project/5.jpg';
+import { Link } from 'react-router-dom';
 
-import {
-  StyledContainer,
-  StyledList,
-  StyledItem,
-  StyledTitle,
-  StyledText,
-} from './CardsList.styled';
-
-const cards = [
-  { title: 'Liquid Transportation', img: img1, text: 'Premium Tankers' },
-  { title: 'Packaging Solutions', img: img2, text: 'Warehouse Management' },
-  { title: 'Contract Logistics', img: img3, text: 'Road Transportation' },
-  { title: 'Warehouse & Distribution', img: img4, text: 'Large Warehouse' },
-  { title: 'Specialized Transport', img: img5, text: 'Ocean Transports' },
-];
-
-export default function CardsList() {
-  const elements = cards.map(({ title, img, text }) => (
-    <StyledItem key={title} bg={img}>
-      <StyledTitle>{title}</StyledTitle>
-      <StyledText>{text}</StyledText>
-    </StyledItem>
+export default function CardsList({ cards }) {
+  const elements = cards.map(({ title, img, text, href }) => (
+    <li
+      className=" w-[320px] h-[408px]  transition-all ease-in-out duration-200 hover:scale-110 pb-5 cursor-pointer"
+      key={title}
+      style={{
+        background: `linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%),
+    url(${img})`,
+      }}
+    >
+      {' '}
+      <Link
+        to={href}
+        className=" h-full w-full flex flex-col justify-end gap-1 pl-[25px]"
+      >
+        <h3 className=" font-rubik font-medium text-xl text-white">{title}</h3>
+        <p className=" font-krab font-medium text-base text-[#ffb629]">
+          {text}
+        </p>
+      </Link>
+    </li>
   ));
-  return (
-    <StyledContainer>
-      <StyledList>{elements}</StyledList>
-    </StyledContainer>
-  );
+  return <ul className=" flex justify-center gap-[18px] mb-16">{elements}</ul>;
 }

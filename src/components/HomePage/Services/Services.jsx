@@ -1,7 +1,6 @@
 import Label from '../../../components/Label/Label';
-import services from '../../../data/servicesData';
 
-export default function HomePageServices() {
+export default function Services({ services }) {
   const elements = services.map(({ id, title, text, icon }) => (
     <li key={id} className="flex justify-between w-[398px]">
       <div>
