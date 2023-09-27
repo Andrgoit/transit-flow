@@ -1,8 +1,6 @@
-import items from './data';
-
-export default function ClientLogo() {
+export default function ClientLogo({ items }) {
   const elements = items.map(({ id, bg, icon }) => (
-    <div
+    <li
       key={id}
       className="w-1/4 h-[234px] flex justify-center items-center"
       style={{
@@ -10,7 +8,7 @@ export default function ClientLogo() {
       }}
     >
       {icon}
-    </div>
+    </li>
   ));
-  return <div className="containerStyled flex ">{elements}</div>;
+  return <ul className="containerStyled flex ">{elements}</ul>;
 }

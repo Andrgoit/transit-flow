@@ -49,4 +49,10 @@ img {
   .containerStyled {
     @apply w-[1230px] mx-auto px-[15px];
   }
+  .subscribeInput {
+    @apply w-[365px] py-[21px] pl-[30px] text-white text-xl font-normal bg-transparent placeholder:text-white placeholder:text-xl placeholder:font-normal;
+  }
+  .subscribeTextarea {
+    @apply w-full resize-none pt-5 pl-6 bg-transparent text-xl text-white font-normal placeholder:text-white placeholder:text-xl placeholder:font-normal;
+  }
 }
