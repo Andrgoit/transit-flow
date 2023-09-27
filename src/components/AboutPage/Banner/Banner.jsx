@@ -1,22 +1,15 @@
-import {
-  StyledHomePageBanner,
-  StyledContainer,
-  StyledContentContainer,
-  StyledTitle,
-} from './Banner.styled';
-
 import Label from '../../../components/Label/Label';
+import StyledBanner from '../../StyledBanner/StyledBanner';
+import banner from '../../../img/AboutPage/Banner/banner.jpg';
 
-export default function HomePageBanner() {
+export default function Banner() {
   return (
-    <StyledHomePageBanner>
-      <StyledContainer>
-        <StyledContentContainer>
-          <Label text="About Us" dark />
-          {/* bg - "dark" or "light" */}
-          <StyledTitle>About Our Logistics</StyledTitle>
-        </StyledContentContainer>
-      </StyledContainer>
-    </StyledHomePageBanner>
+    <StyledBanner img={banner}>
+      <Label text="About Us" dark />
+      {/* bg - "dark" or "light" */}
+      <h2 className=" font-bold text-[70px] text-white mt-2">
+        About Our Logistics
+      </h2>
+    </StyledBanner>
   );
 }

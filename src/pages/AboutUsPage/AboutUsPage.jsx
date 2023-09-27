@@ -11,6 +11,7 @@ import {
 
 import { cards } from '../../data/teamData';
 import users from '../../data/testimonialData';
+import clientLogoData from '../../data/clientLogoData';
 
 export default function AboutUsPage() {
   return (
@@ -22,7 +23,7 @@ export default function AboutUsPage() {
       <Testimonial users={users} grey />
       <Pricing />
       <Faq />
-      <ClientLogo />
+      <ClientLogo items={clientLogoData} />
     </>
   );
 }

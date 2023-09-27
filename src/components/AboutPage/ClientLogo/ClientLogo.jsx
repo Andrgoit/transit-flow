@@ -1,9 +1,9 @@
 import ClientsLogo from '../../ClientLogo/ClientLogo';
 
-export default function ClientLogo() {
+export default function ClientLogo({ items }) {
   return (
     <section className=" py-20 bg-white">
-      <ClientsLogo />
+      <ClientsLogo items={items} />
     </section>
   );
 }
