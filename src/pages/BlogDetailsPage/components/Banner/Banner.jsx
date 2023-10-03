@@ -1,5 +1,5 @@
-import Label from '../../../components/Label/Label';
-import banner from '../../../img/BlogPage/banner.jpg';
+import Calendar from './Calendar/Calendar';
+import banner from '../../../../img/BlogDetailsPage/banner.jpg';
 
 export default function Banner() {
   return (
@@ -14,11 +14,11 @@ export default function Banner() {
           className="mix-blend-overlay object-cover  w-full h-full absolute z-[-2]"
         />
         <div className=" container mx-auto w-[1230px] px-[15px] ">
-          <div className="w-[746px]  pt-[251px] pb-[127px] flex-col flex">
-            <Label text="Blog" dark />
+          <div className="w-[1092px]  pt-[251px] pb-[127px] flex-col flex">
+            <Calendar />
             {/* для светлого типа Label нужно убрать атрибут dark */}
             <h2 className="text-6xl text-white font-bold mt-2">
-              Our Latest News
+              How technology can help redraw the supply chain map
             </h2>
           </div>
         </div>

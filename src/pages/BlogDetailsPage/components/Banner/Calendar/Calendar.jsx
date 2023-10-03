@@ -1,4 +1,4 @@
-import icon from '../../../../img/BlogDetailsPage/icon.svg';
+import icon from '../../../../../img/BlogDetailsPage/icon.svg';
 
 export default function Calendar() {
   return (

@@ -1,4 +1,4 @@
 import Banner from './Banner/Banner';
-import Blog from '../Blog/Blog';
+import Blog from '../../../components/Blog/Blog';
 
 export { Banner, Blog };
