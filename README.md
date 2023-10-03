@@ -17,7 +17,7 @@
 - [x] BlogPage => tailwindcss
 - [x] BlogSinglePage => tailwindcss
 - [x] ServicesPage => tailwindcss
-- [x] ServiceSinglePage
+- [x] ServiceSinglePage => tailwindcss
 - [x] ProjectPage
 - [x] ProjectSinglePage
 - [ ] TeamPage
