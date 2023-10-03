@@ -11,7 +11,7 @@
 ---
 
 - [x] HomePage => tailwindcss
-- [x] AboutPage
+- [x] AboutPage => tailwindcss
 - [x] ServicesPage
 - [x] ServiceSinglePage
 - [x] ProjectPage
