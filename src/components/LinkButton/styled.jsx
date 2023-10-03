@@ -38,3 +38,36 @@
 //     transform: scale(1.5);
 //   }
 // `;
+
+// export const StyledItem = styled.li`
+//   width: 380px;
+//   padding: 61px 50px;
+//   background-color: #f4f4f4;
+//   color: #1c1f35;
+
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   gap: 50px;
+//   cursor: pointer;
+//   transition: all 0.3s ease-in-out;
+
+//   &:hover {
+//     background-color: #1f2a69;
+//     color: #fff;
+
+//     & a {
+//       color: #1f2a69;
+//       background: linear-gradient(
+//         127deg,
+//         rgb(255, 182, 41) 0%,
+//         rgb(255, 218, 86) 50.72%,
+//         rgb(255, 215, 166) 100%
+//       );
+
+//       &::after {
+//         background-color: #fff;
+//       }
+//     }
+//   }
+// `;

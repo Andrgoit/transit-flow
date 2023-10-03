@@ -8,11 +8,13 @@ import 'swiper/css/pagination';
 
 import quote from '../../../img/HomePage/Testimonial/quote.svg';
 
-export default function SwiperContent({ users }) {
+export default function SwiperContent({ users, grey }) {
   const elements = users.map(({ name, role, img, raiting, text }) => (
     <SwiperSlide
       key={name}
-      className=" py-[62px] px-[72px] w-[550px] h-[425px] bg-[#f4f4f4] odd:bg-[#c2bfbf]"
+      className={`py-[62px] px-[72px] w-[550px] h-[425px] odd:bg-[#c2bfbf] ${
+        grey ? 'bg-white' : 'bg-secondary-gray'
+      } `}
     >
       <div className="">
         <div className="flex justify-between mb-6">

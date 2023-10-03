@@ -10,14 +10,14 @@ import {
   Contact,
   Blog,
   PreFooterBanner,
-} from '../../components/HomePage';
+} from './components';
 
 //data
 import { cards } from '../../data/teamData';
 import { homePageEvents } from '../../data/blogData';
 import users from '../../data/testimonialData';
 import projectCards from '../../data/projectData';
-import services from '../../data/servicesData';
+import { services } from '../../data/servicesData';
 import homePageChooses from '../../data/choosData';
 
 export default function HomePage() {

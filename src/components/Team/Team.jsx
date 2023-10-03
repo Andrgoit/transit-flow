@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import Label from '../Label/Label';
 
-export default function Team({ cards }) {
+export default function Team({ cards, grey = false }) {
   const elements = cards.map(
     ({
       name,
@@ -68,7 +68,7 @@ export default function Team({ cards }) {
   );
 
   return (
-    <section className=" py-24 bg-[#F4F4F4]">
+    <section className={` py-24 ${grey ? 'bg-secondary-gray' : 'bg-white'}`}>
       <div className="containerStyled flex flex-col items-center">
         <Label text="The Transporters" />
         <h3 className=" font-rubik text-4xl font-semibold mt-4 mb-10">
