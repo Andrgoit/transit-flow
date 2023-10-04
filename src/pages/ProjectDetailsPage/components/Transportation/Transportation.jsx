@@ -1,4 +1,4 @@
-import img from '../../../img/icons/arrow.svg';
+import img from '../../../../img/icons/arrow.svg';
 
 const items = [
   { id: 1, text: 'National Customer Service Center – 24 hours a day.' },

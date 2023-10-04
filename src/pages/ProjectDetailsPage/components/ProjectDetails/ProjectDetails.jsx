@@ -1,4 +1,4 @@
-import img from '../../../img/ProjectDetailsPage/img.jpg';
+import img from '../../../../img/ProjectDetailsPage/img.jpg';
 
 const items = [
   { label: 'Customer', content: 'David Warner' },

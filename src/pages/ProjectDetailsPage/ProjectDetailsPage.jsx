@@ -4,7 +4,9 @@ import {
   ProjectDetails,
   Transportation,
   Video,
-} from '../../components/ProjectDetailsPage/';
+} from './components';
+
+import { itemsSmall } from '../../data/galleryData';
 
 export default function ProjectDetailsPage() {
   return (
@@ -13,7 +15,7 @@ export default function ProjectDetailsPage() {
       <ProjectDetails />
       <Transportation />
       <Video />
-      <Gallery />
+      <Gallery items={itemsSmall} />
     </>
   );
 }

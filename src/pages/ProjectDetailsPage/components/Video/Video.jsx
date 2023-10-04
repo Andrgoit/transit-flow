@@ -1,8 +1,8 @@
-import video from '../../../img/ProjectDetailsPage/video.jpg';
+import video from '../../../../img/ProjectDetailsPage/video.jpg';
 
 export default function Video() {
   return (
-    <section>
+    <section className="mb-[100px]">
       <div className=" containerStyled">
         <h3 className=" font-rubik text-4xl font-semibold text-heading-color mb-[12px]">
           Our Project Transportation

@@ -18,8 +18,8 @@
 - [x] BlogSinglePage => tailwindcss
 - [x] ServicesPage => tailwindcss
 - [x] ServiceSinglePage => tailwindcss
-- [x] ProjectPage
-- [x] ProjectSinglePage
+- [x] ProjectPage => tailwindcss
+- [x] ProjectSinglePage => tailwindcss
 - [ ] TeamPage
 - [ ] ContactPage
 - [x] NotFoundPage
