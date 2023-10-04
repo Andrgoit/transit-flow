@@ -20,7 +20,7 @@
 - [x] ServiceSinglePage => tailwindcss
 - [x] ProjectPage => tailwindcss
 - [x] ProjectSinglePage => tailwindcss
-- [ ] TeamPage
+- [x] TeamPage => tailwindcss
 - [ ] ContactPage
 - [x] NotFoundPage
 - [ ] PricingPage
