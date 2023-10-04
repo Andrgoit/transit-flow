@@ -5,8 +5,8 @@
 данном этапе есть еще некоторые компоненты, написанные на styled-components. Но
 в дальнейшем все будет только на tailwindCSS.
 
-К сожалению шаблон не адаптивный и хорошо выглядет только на ПК. Если будет
-время что-то придумаю для мобильного и планшета.
+К сожалению шаблон только для ПК. Если будет время что-то придумаю для
+мобильного и планшета.
 
 [Макет](<https://www.figma.com/file/QLmknH7VJCpJ01POwkoNlM/Transport-and-Logistics-Webflow-Website-Template-(Community)-(Copy)?type=design&node-id=1-327&mode=design&t=ugv6bgMFdvoNa0qv-0>)
 
@@ -22,5 +22,5 @@
 - [x] ProjectSinglePage => tailwindcss
 - [x] TeamPage => tailwindcss
 - [ ] ContactPage
-- [x] NotFoundPage
+- [x] NotFoundPage => tailwindcss
 - [ ] PricingPage
