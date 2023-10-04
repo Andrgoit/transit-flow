@@ -1,12 +1,13 @@
-import { Banner, Gallery } from '../../components/ProjectPage';
-import Counter from '../../components/Counter/Counter';
+import { Banner, Gallery, Counter } from './components';
 import { servicePageItems } from '../../data/counderData';
+
+import { itemsBig } from '../../data/galleryData';
 
 export default function ProjectPage() {
   return (
     <>
       <Banner />
-      <Gallery />
+      <Gallery items={itemsBig} />
       <Counter items={servicePageItems} />
     </>
   );
