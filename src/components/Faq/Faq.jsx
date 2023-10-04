@@ -1,9 +1,9 @@
-import Label from '../../../../components/Label/Label';
+import Label from '../../components/Label/Label';
 import Accordion from './Accordion/Accordion';
-import LinkButton from '../../../../components/LinkButton/LinkButton';
+import LinkButton from '../../components/LinkButton/LinkButton';
 
-import bg from '../../../../img/AboutPage/Faq/bg.jpg';
-import icon from '../../../../img/AboutPage/Faq/phone.svg';
+import bg from '../../img/AboutPage/Faq/bg.jpg';
+import icon from '../../img/AboutPage/Faq/phone.svg';
 
 export default function Faq() {
   return (

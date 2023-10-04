@@ -19,6 +19,7 @@ import users from '../../data/testimonialData';
 import projectCards from '../../data/projectData';
 import { services } from '../../data/servicesData';
 import homePageChooses from '../../data/choosData';
+import items from '../../data/contactData';
 
 export default function HomePage() {
   return (
@@ -30,7 +31,7 @@ export default function HomePage() {
       <Testimonial users={users} />
       <Choos chooses={homePageChooses} />
       <Team cards={cards} />
-      <Contact />
+      <Contact items={items} />
       <Blog events={homePageEvents} />
       <PreFooterBanner />
     </>

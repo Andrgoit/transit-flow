@@ -21,6 +21,6 @@
 - [x] ProjectPage => tailwindcss
 - [x] ProjectSinglePage => tailwindcss
 - [x] TeamPage => tailwindcss
-- [ ] ContactPage
+- [x] ContactPage => tailwindcss
 - [x] NotFoundPage => tailwindcss
 - [ ] PricingPage
