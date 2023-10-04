@@ -12,16 +12,11 @@ const BlogPage = lazy(() => import('./pages/BlogPage/BlogPage'));
 const BlogDetailsPage = lazy(() =>
   import('./pages/BlogDetailsPage/BlogDetailsPage')
 );
-const ChangeLogPage = lazy(() => import('./pages/ChangeLogPage/ChangeLogPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage/ContactPage'));
-const LiecensesPage = lazy(() => import('./pages/LiecensesPage/LiecensesPage'));
 const PricingPage = lazy(() => import('./pages/PricingPage/PricingPage'));
 const ProjectPage = lazy(() => import('./pages/ProjectPage/ProjectPage'));
 const ProjectDetailsPage = lazy(() =>
   import('./pages/ProjectDetailsPage/ProjectDetailsPage')
-);
-const ProtectionPage = lazy(() =>
-  import('./pages/ProtectionPage/ProtectionPage')
 );
 const ServicesPage = lazy(() => import('./pages/ServicesPage/ServicesPage'));
 const ServicesDetailsPage = lazy(() =>

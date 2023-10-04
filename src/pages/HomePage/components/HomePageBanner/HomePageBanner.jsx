@@ -15,7 +15,7 @@ export default function HomePageBanner() {
       <div className="containerStyled flex flex-col justify-end mb-auto">
         <div className="flex flex-col w-[571px] absolute bottom-[218px] ">
           <Label text="Logistics & Supply Chain Solutions" dark />
-          {/* bg - "dark" or "light" */}
+
           <h2 className=" font-rubik text-white font-bold text-6xl mt-2">
             Your Gateway to any Destination in the World
           </h2>
